@@ -22,7 +22,7 @@
       <CompressSpritesType>None</CompressSpritesType>
       <CrossfadeMusic>No</CrossfadeMusic>
       <CustomDataDir IsNull="True" />
-      <CustomResolution>320,200</CustomResolution>
+      <CustomResolution>500,300</CustomResolution>
       <DebugMode>True</DebugMode>
       <DefaultRoomMaskResolution>1</DefaultRoomMaskResolution>
       <Description />
@@ -691,15 +691,15 @@
               <Clickable>False</Clickable>
               <Height>20</Height>
               <ID>0</ID>
-              <Left>0</Left>
+              <Left>100</Left>
               <Name>gActionBar</Name>
               <OnClick />
               <PopupStyle>Normal</PopupStyle>
               <PopupYPos>0</PopupYPos>
-              <Top>180</Top>
+              <Top>250</Top>
               <Transparency>0</Transparency>
               <Visible>True</Visible>
-              <Width>320</Width>
+              <Width>500</Width>
               <ZOrder>0</ZOrder>
             </NormalGUI>
             <Controls>
@@ -730,7 +730,7 @@
               <Clickable>True</Clickable>
               <Height>42</Height>
               <ID>1</ID>
-              <Left>0</Left>
+              <Left>100</Left>
               <Name>gInventoryBar</Name>
               <OnClick />
               <PopupStyle>Normal</PopupStyle>
@@ -738,7 +738,7 @@
               <Top>0</Top>
               <Transparency>0</Transparency>
               <Visible>False</Visible>
-              <Width>320</Width>
+              <Width>500</Width>
               <ZOrder>0</ZOrder>
             </NormalGUI>
             <Controls>
@@ -840,7 +840,7 @@
               <Clickable>True</Clickable>
               <Height>65</Height>
               <ID>2</ID>
-              <Left>58</Left>
+              <Left>158</Left>
               <Name>gExitGame</Name>
               <OnClick />
               <PopupStyle>PopupModal</PopupStyle>
@@ -927,7 +927,7 @@
               <Clickable>True</Clickable>
               <Height>157</Height>
               <ID>3</ID>
-              <Left>31</Left>
+              <Left>131</Left>
               <Name>gRestoreGame</Name>
               <OnClick />
               <PopupStyle>PopupModal</PopupStyle>
@@ -1036,7 +1036,7 @@
               <Clickable>True</Clickable>
               <Height>157</Height>
               <ID>4</ID>
-              <Left>31</Left>
+              <Left>131</Left>
               <Name>gSaveGame</Name>
               <OnClick />
               <PopupStyle>PopupModal</PopupStyle>
