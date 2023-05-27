@@ -3,7 +3,7 @@ Look
 (Aww he's so cute!)
 
 Sign
-The sign says: This is Alex, the mysterious yet loveable ocelot. His favorite food are hot dogs.
+The sign says: This is Alex, the mysterious yet loveable ocelot. His favorite food is hot dogs.
 
 Talk
 1.
