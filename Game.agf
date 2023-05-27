@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>0</AudioIndexer>
+      <AudioIndexer>6</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
@@ -672,6 +672,10 @@
             <Description IsNull="True" />
             <Number>2</Number>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Description IsNull="True" />
+            <Number>3</Number>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -1175,6 +1179,358 @@
               </GUIButton>
             </Controls>
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>16</BackgroundImage>
+              <BorderColor>2</BorderColor>
+              <Clickable>True</Clickable>
+              <Height>200</Height>
+              <ID>5</ID>
+              <Left>0</Left>
+              <Name>gNumPad</Name>
+              <OnClick>gNumPad_OnClick</OnClick>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <Top>0</Top>
+              <Transparency>0</Transparency>
+              <Visible>False</Visible>
+              <Width>360</Width>
+              <ZOrder>0</ZOrder>
+            </NormalGUI>
+            <Controls>
+              <GUITextBox>
+                <Clickable>False</Clickable>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>20</Height>
+                <ID>0</ID>
+                <Left>143</Left>
+                <Locked>True</Locked>
+                <Name>NumDisplay</Name>
+                <OnActivate />
+                <ShowBorder>False</ShowBorder>
+                <Text />
+                <TextColor>0</TextColor>
+                <Top>42</Top>
+                <Visible>True</Visible>
+                <Width>34</Width>
+                <ZOrder>1</ZOrder>
+              </GUITextBox>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>20</Height>
+                <ID>1</ID>
+                <Image>0</Image>
+                <Left>150</Left>
+                <Locked>True</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Num0</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>Num0_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>0</Text>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>145</Top>
+                <Visible>True</Visible>
+                <Width>20</Width>
+                <ZOrder>2</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>20</Height>
+                <ID>2</ID>
+                <Image>0</Image>
+                <Left>150</Left>
+                <Locked>True</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Num8</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>Num8_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>8</Text>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>123</Top>
+                <Visible>True</Visible>
+                <Width>20</Width>
+                <ZOrder>3</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>20</Height>
+                <ID>3</ID>
+                <Image>0</Image>
+                <Left>150</Left>
+                <Locked>True</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Num5</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>Num5_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>5</Text>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>101</Top>
+                <Visible>True</Visible>
+                <Width>20</Width>
+                <ZOrder>4</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>20</Height>
+                <ID>4</ID>
+                <Image>0</Image>
+                <Left>125</Left>
+                <Locked>True</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Num1</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>Num1_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>1</Text>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>79</Top>
+                <Visible>True</Visible>
+                <Width>20</Width>
+                <ZOrder>5</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>20</Height>
+                <ID>5</ID>
+                <Image>0</Image>
+                <Left>150</Left>
+                <Locked>True</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Num2</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>Num2_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>2</Text>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>79</Top>
+                <Visible>True</Visible>
+                <Width>20</Width>
+                <ZOrder>6</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>20</Height>
+                <ID>6</ID>
+                <Image>0</Image>
+                <Left>125</Left>
+                <Locked>True</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Num7</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>Num7_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>7</Text>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>123</Top>
+                <Visible>True</Visible>
+                <Width>20</Width>
+                <ZOrder>7</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>20</Height>
+                <ID>7</ID>
+                <Image>0</Image>
+                <Left>125</Left>
+                <Locked>True</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Num4</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>Num4_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>4</Text>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>101</Top>
+                <Visible>True</Visible>
+                <Width>20</Width>
+                <ZOrder>8</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>20</Height>
+                <ID>8</ID>
+                <Image>0</Image>
+                <Left>175</Left>
+                <Locked>True</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Num6</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>Num6_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>6</Text>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>101</Top>
+                <Visible>True</Visible>
+                <Width>20</Width>
+                <ZOrder>9</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>20</Height>
+                <ID>9</ID>
+                <Image>0</Image>
+                <Left>175</Left>
+                <Locked>True</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Num9</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>Num9_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>9</Text>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>123</Top>
+                <Visible>True</Visible>
+                <Width>20</Width>
+                <ZOrder>10</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>20</Height>
+                <ID>10</ID>
+                <Image>0</Image>
+                <Left>175</Left>
+                <Locked>True</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Num3</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>Num3_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>3</Text>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>79</Top>
+                <Visible>True</Visible>
+                <Width>20</Width>
+                <ZOrder>11</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>False</Clickable>
+                <ClipImage>True</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>20</Height>
+                <ID>11</ID>
+                <Image>10</Image>
+                <Left>125</Left>
+                <Locked>True</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>EnterButton</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>EnterButton_OnClick</OnClick>
+                <PushedImage>11</PushedImage>
+                <Text />
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>145</Top>
+                <Visible>True</Visible>
+                <Width>20</Width>
+                <ZOrder>12</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>20</Height>
+                <ID>12</ID>
+                <Image>12</Image>
+                <Left>175</Left>
+                <Locked>True</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>BackButton</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>BackButton_OnClick</OnClick>
+                <PushedImage>13</PushedImage>
+                <Text />
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>145</Top>
+                <Visible>True</Visible>
+                <Width>20</Width>
+                <ZOrder>13</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>150</Height>
+                <ID>13</ID>
+                <Image>17</Image>
+                <Left>110</Left>
+                <Locked>True</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>NumPadBody</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text />
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>25</Top>
+                <Visible>True</Visible>
+                <Width>100</Width>
+                <ZOrder>0</ZOrder>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -1412,14 +1768,14 @@
             <NormalView>1</NormalView>
             <Properties />
             <RealName>PlaceholderName</RealName>
-            <ScriptName>hiddenPlayer</ScriptName>
+            <ScriptName>cHiddenPlayer</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
             <StartX>156</StartX>
             <StartY>136</StartY>
-            <StartingRoom>1</StartingRoom>
+            <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -3748,6 +4104,141 @@ stop
               <ImportAlphaChannel>True</ImportAlphaChannel>
             </Source>
           </Sprite>
+          <Sprite Slot="9" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+            <Source>
+              <FileName>Source/UI/NumPad/ConfirmButtonDefault.png</FileName>
+              <OffsetX>0</OffsetX>
+              <OffsetY>0</OffsetY>
+              <ImportHeight>20</ImportHeight>
+              <ImportWidth>20</ImportWidth>
+              <ImportAsTile>False</ImportAsTile>
+              <Frame>0</Frame>
+              <RemapToGamePalette>False</RemapToGamePalette>
+              <RemapToRoomPalette>False</RemapToRoomPalette>
+              <ImportMethod>LeaveAsIs</ImportMethod>
+              <ImportAlphaChannel>True</ImportAlphaChannel>
+            </Source>
+          </Sprite>
+          <Sprite Slot="10" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+            <Source>
+              <FileName>Source/UI/NumPad/ConfirmButtonDisabled.png</FileName>
+              <OffsetX>0</OffsetX>
+              <OffsetY>0</OffsetY>
+              <ImportHeight>20</ImportHeight>
+              <ImportWidth>20</ImportWidth>
+              <ImportAsTile>False</ImportAsTile>
+              <Frame>0</Frame>
+              <RemapToGamePalette>False</RemapToGamePalette>
+              <RemapToRoomPalette>False</RemapToRoomPalette>
+              <ImportMethod>LeaveAsIs</ImportMethod>
+              <ImportAlphaChannel>True</ImportAlphaChannel>
+            </Source>
+          </Sprite>
+          <Sprite Slot="11" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+            <Source>
+              <FileName>Source/UI/NumPad/ConfirmButtonPressed.png</FileName>
+              <OffsetX>0</OffsetX>
+              <OffsetY>0</OffsetY>
+              <ImportHeight>20</ImportHeight>
+              <ImportWidth>20</ImportWidth>
+              <ImportAsTile>False</ImportAsTile>
+              <Frame>0</Frame>
+              <RemapToGamePalette>False</RemapToGamePalette>
+              <RemapToRoomPalette>False</RemapToRoomPalette>
+              <ImportMethod>LeaveAsIs</ImportMethod>
+              <ImportAlphaChannel>True</ImportAlphaChannel>
+            </Source>
+          </Sprite>
+          <Sprite Slot="12" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+            <Source>
+              <FileName>Source/UI/NumPad/DeleteButtonDefault.png</FileName>
+              <OffsetX>0</OffsetX>
+              <OffsetY>0</OffsetY>
+              <ImportHeight>20</ImportHeight>
+              <ImportWidth>20</ImportWidth>
+              <ImportAsTile>False</ImportAsTile>
+              <Frame>0</Frame>
+              <RemapToGamePalette>False</RemapToGamePalette>
+              <RemapToRoomPalette>False</RemapToRoomPalette>
+              <ImportMethod>LeaveAsIs</ImportMethod>
+              <ImportAlphaChannel>True</ImportAlphaChannel>
+            </Source>
+          </Sprite>
+          <Sprite Slot="13" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+            <Source>
+              <FileName>Source/UI/NumPad/DeleteButtonPressed.png</FileName>
+              <OffsetX>0</OffsetX>
+              <OffsetY>0</OffsetY>
+              <ImportHeight>20</ImportHeight>
+              <ImportWidth>20</ImportWidth>
+              <ImportAsTile>False</ImportAsTile>
+              <Frame>0</Frame>
+              <RemapToGamePalette>False</RemapToGamePalette>
+              <RemapToRoomPalette>False</RemapToRoomPalette>
+              <ImportMethod>LeaveAsIs</ImportMethod>
+              <ImportAlphaChannel>True</ImportAlphaChannel>
+            </Source>
+          </Sprite>
+          <Sprite Slot="14" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+            <Source>
+              <FileName>Source/UI/NumPad/NumPadButtonDefault.png</FileName>
+              <OffsetX>0</OffsetX>
+              <OffsetY>0</OffsetY>
+              <ImportHeight>20</ImportHeight>
+              <ImportWidth>20</ImportWidth>
+              <ImportAsTile>False</ImportAsTile>
+              <Frame>0</Frame>
+              <RemapToGamePalette>False</RemapToGamePalette>
+              <RemapToRoomPalette>False</RemapToRoomPalette>
+              <ImportMethod>LeaveAsIs</ImportMethod>
+              <ImportAlphaChannel>True</ImportAlphaChannel>
+            </Source>
+          </Sprite>
+          <Sprite Slot="15" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+            <Source>
+              <FileName>Source/UI/NumPad/NumPadButtonPressed.png</FileName>
+              <OffsetX>0</OffsetX>
+              <OffsetY>0</OffsetY>
+              <ImportHeight>20</ImportHeight>
+              <ImportWidth>20</ImportWidth>
+              <ImportAsTile>False</ImportAsTile>
+              <Frame>0</Frame>
+              <RemapToGamePalette>False</RemapToGamePalette>
+              <RemapToRoomPalette>False</RemapToRoomPalette>
+              <ImportMethod>LeaveAsIs</ImportMethod>
+              <ImportAlphaChannel>True</ImportAlphaChannel>
+            </Source>
+          </Sprite>
+          <Sprite Slot="16" Width="360" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+            <Source>
+              <FileName>Source/UI/NumPad/NumPadBackground.png</FileName>
+              <OffsetX>0</OffsetX>
+              <OffsetY>0</OffsetY>
+              <ImportHeight>200</ImportHeight>
+              <ImportWidth>360</ImportWidth>
+              <ImportAsTile>False</ImportAsTile>
+              <Frame>0</Frame>
+              <RemapToGamePalette>False</RemapToGamePalette>
+              <RemapToRoomPalette>False</RemapToRoomPalette>
+              <ImportMethod>LeaveAsIs</ImportMethod>
+              <ImportAlphaChannel>True</ImportAlphaChannel>
+            </Source>
+          </Sprite>
+          <Sprite Slot="17" Width="100" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+            <Source>
+              <FileName>Source/UI/NumPad/NumPad.png</FileName>
+              <OffsetX>0</OffsetX>
+              <OffsetY>0</OffsetY>
+              <ImportHeight>150</ImportHeight>
+              <ImportWidth>100</ImportWidth>
+              <ImportAsTile>False</ImportAsTile>
+              <Frame>0</Frame>
+              <RemapToGamePalette>False</RemapToGamePalette>
+              <RemapToRoomPalette>False</RemapToRoomPalette>
+              <ImportMethod>LeaveAsIs</ImportMethod>
+              <ImportAlphaChannel>True</ImportAlphaChannel>
+            </Source>
+          </Sprite>
         </Sprites>
       </SpriteFolder>
     </Sprites>
@@ -4089,6 +4580,30 @@ stop
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
+                <FileName>NumPad.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>1597566340</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>NumPad.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>1597566340</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
                 <FileName>TwoClickHandler.ash</FileName>
                 <Name />
                 <Description />
@@ -4152,7 +4667,98 @@ stop
             </AudioClipFolder>
           </AudioClipFolder>
           <AudioClipFolder Name="Sounds">
-            <SubFolders />
+            <SubFolders>
+              <AudioClipFolder Name="NumPadFX">
+                <SubFolders />
+                <AudioClips>
+                  <AudioClip>
+                    <BundlingType>InGameEXE</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>OGG</FileType>
+                    <ID>0</ID>
+                    <Index>1</Index>
+                    <ScriptName>aButtonPress0</ScriptName>
+                    <SourceFileName>Source/Sound/FXs/ButtonPress0.ogg</SourceFileName>
+                    <Type>3</Type>
+                    <FileLastModifiedDate>2023-05-27 20:58:05Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InGameEXE</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>OGG</FileType>
+                    <ID>1</ID>
+                    <Index>2</Index>
+                    <ScriptName>aButtonPress1</ScriptName>
+                    <SourceFileName>Source/Sound/FXs/ButtonPress1.ogg</SourceFileName>
+                    <Type>3</Type>
+                    <FileLastModifiedDate>2023-05-27 20:58:49Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InGameEXE</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>OGG</FileType>
+                    <ID>2</ID>
+                    <Index>3</Index>
+                    <ScriptName>aButtonPress2</ScriptName>
+                    <SourceFileName>Source/Sound/FXs/ButtonPress2.ogg</SourceFileName>
+                    <Type>3</Type>
+                    <FileLastModifiedDate>2023-05-27 20:59:01Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InGameEXE</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>OGG</FileType>
+                    <ID>3</ID>
+                    <Index>4</Index>
+                    <ScriptName>aButtonPress3</ScriptName>
+                    <SourceFileName>Source/Sound/FXs/ButtonPress3.ogg</SourceFileName>
+                    <Type>3</Type>
+                    <FileLastModifiedDate>2023-05-27 20:59:14Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InGameEXE</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>OGG</FileType>
+                    <ID>4</ID>
+                    <Index>5</Index>
+                    <ScriptName>aNumPadCorrect</ScriptName>
+                    <SourceFileName>Source/Sound/FXs/NumPadCorrect.ogg</SourceFileName>
+                    <Type>3</Type>
+                    <FileLastModifiedDate>2023-05-27 21:00:45Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InGameEXE</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>OGG</FileType>
+                    <ID>5</ID>
+                    <Index>6</Index>
+                    <ScriptName>aNumPadIncorrect</ScriptName>
+                    <SourceFileName>Source/Sound/FXs/NumPadIncorrect.ogg</SourceFileName>
+                    <Type>3</Type>
+                    <FileLastModifiedDate>2023-05-27 20:51:08Z</FileLastModifiedDate>
+                  </AudioClip>
+                </AudioClips>
+                <AudioClipFolder>
+                  <DefaultBundlingType>InGameEXE</DefaultBundlingType>
+                  <DefaultPriority>Inherit</DefaultPriority>
+                  <DefaultRepeat>Inherit</DefaultRepeat>
+                  <DefaultType>3</DefaultType>
+                  <DefaultVolume>100</DefaultVolume>
+                </AudioClipFolder>
+              </AudioClipFolder>
+            </SubFolders>
             <AudioClips />
             <AudioClipFolder>
               <DefaultBundlingType>InGameEXE</DefaultBundlingType>
