@@ -1,0 +1,18 @@
+Player x Chest
+Look
+(Oh it's a chest. Wonder what's inside.)
+
+Interact
+1.
+Dialogue Choice:
+Choice 1: Be rude
+	Player: Oh I don't think it liked it very much.
+Choice 2: Seduce
+	Player: Whoa it opened! Didn't think my rizz was that good.
+	Player: Let's see... !!!
+	Player: Oh cool a bat!
+	(Player obtains a bat)
+Choice 3: Pick Lock
+	Player: Crap! It didn't work.
+	
+	
