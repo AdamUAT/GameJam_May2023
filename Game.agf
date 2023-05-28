@@ -2645,7 +2645,9 @@ stop
 @S  // Dialog startup entry point
 return
 @1
+Hotdog: &1
 Alex: Oh? A hot dog, my favorite!
+run-script 16
 HiddenPlayer: (You can hear the hot dog's screams of agony.)
 Alex: (As the hot dog's life gets consumed, Alex's mannerisms begin to change as if possessed by another being.)
 Alex: Greetings mortal! You have offered me sufficient sacrifice! For that, I shall reveal to you my true name!
@@ -2657,6 +2659,10 @@ HiddenPlayer: (Let's just pretend like that didn't happen before the existential
 run-script 5
 stop
 
+@2
+HiddenPlayer: Uhhh, nevermind.
+Alex: ?
+return
 ]]></Script>
                 <DialogOptions>
                   <DialogOption>
@@ -2664,6 +2670,12 @@ stop
                     <Say>True</Say>
                     <Show>True</Show>
                     <Text xml:space="preserve">Sacrifice Hot Dog</Text>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Say>True</Say>
+                    <Show>True</Show>
+                    <Text xml:space="preserve">Spare it</Text>
                   </DialogOption>
                 </DialogOptions>
               </Dialog>
@@ -3460,6 +3472,16 @@ stop
         <GlobalVariable>
           <DefaultValue>true</DefaultValue>
           <Name>isHuman</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>helpedDebraforAlex</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>obtainedHotdog</Name>
           <Type>bool</Type>
         </GlobalVariable>
       </Variables>
@@ -5356,6 +5378,21 @@ stop
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
+              <Sprite Slot="64" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Source/Objects/bat_item.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>20</ImportHeight>
+                  <ImportWidth>20</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="Props">
@@ -5938,6 +5975,26 @@ stop
                   <OffsetY>0</OffsetY>
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>64</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="GUI">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="65" Width="130" Height="115" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Source/UI/sticky_note.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>115</ImportHeight>
+                  <ImportWidth>130</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
