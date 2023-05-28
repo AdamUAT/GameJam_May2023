@@ -1682,12 +1682,12 @@
             </Interactions>
           </InventoryItem>
           <InventoryItem>
-            <CursorImage>0</CursorImage>
+            <CursorImage>57</CursorImage>
             <Description xml:space="preserve">Stuffed Animal</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <ID>4</ID>
-            <Image>0</Image>
+            <Image>57</Image>
             <Name>iStuffedAnimal</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
@@ -2091,7 +2091,7 @@
               <Event Index="0">cTerry_Look</Event>
               <Event Index="1">cTerry_Interact</Event>
               <Event Index="2">cTerry_Talk</Event>
-              <Event Index="3" />
+              <Event Index="3">cTerry_UseInv</Event>
               <Event Index="4" />
               <Event Index="5" />
               <Event Index="6" />
@@ -2369,6 +2369,8 @@ Terry: "......"
 Terry: &1 AHAHAHAHAHAHAHA
 Terry: You have made Terry's day. Here, have my stuffed animal.
 HiddenPlayer: (You take the stuffed animal, but you're just glad to be away from this dude who clearly has issues.)
+  object[0].Visible = false;
+add-inv 4
 stop]]></Script>
                 <DialogOptions />
               </Dialog>
@@ -6710,7 +6712,9 @@ stop
   <Component Name="Translations" />
   <Component Name="MusicAndSpeech">
     <SpeechVoxFiles>
-      <Folder Name="speech" />
+      <Folder Name="speech">
+        <File Name="speech\terr1.wav" FileTime="2023-05-28 03:32:40Z" />
+      </Folder>
     </SpeechVoxFiles>
     <PamFiles>
       <Folder Name="speech" />
