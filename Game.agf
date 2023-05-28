@@ -1579,6 +1579,60 @@
               <Event Index="4" />
             </Interactions>
           </InventoryItem>
+          <InventoryItem>
+            <CursorImage>0</CursorImage>
+            <Description xml:space="preserve">Turn into animal</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>3</ID>
+            <Image>0</Image>
+            <Name>iTransform</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>0</CursorImage>
+            <Description xml:space="preserve">Stuffed Animal</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>4</ID>
+            <Image>0</Image>
+            <Name>iStuffedAnimal</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>0</CursorImage>
+            <Description>Bat</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>5</ID>
+            <Image>0</Image>
+            <Name>iBat</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
         </InventoryItems>
       </InventoryItemFolder>
     </InventoryItems>
@@ -1773,9 +1827,9 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>156</StartX>
-            <StartY>136</StartY>
-            <StartingRoom>3</StartingRoom>
+            <StartX>160</StartX>
+            <StartY>1</StartY>
+            <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -1868,6 +1922,258 @@
             <Interactions>
               <Event Index="0" />
               <Event Index="1">cChatCharacter_Interact</Event>
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
+          <Character>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <AnimationDelay>4</AnimationDelay>
+            <BlinkingView>0</BlinkingView>
+            <Clickable>True</Clickable>
+            <DiagonalLoops>True</DiagonalLoops>
+            <ID>4</ID>
+            <IdleAnimationDelay>4</IdleAnimationDelay>
+            <IdleDelay>20</IdleDelay>
+            <IdleView>0</IdleView>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <NormalView>1</NormalView>
+            <Properties />
+            <RealName>Debra</RealName>
+            <ScriptName>cDebra</ScriptName>
+            <Solid>True</Solid>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>12</SpeechColor>
+            <SpeechView>0</SpeechView>
+            <StartX>160</StartX>
+            <StartY>120</StartY>
+            <StartingRoom>-1</StartingRoom>
+            <ThinkingView>0</ThinkingView>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
+          <Character>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <AnimationDelay>4</AnimationDelay>
+            <BlinkingView>0</BlinkingView>
+            <Clickable>True</Clickable>
+            <DiagonalLoops>True</DiagonalLoops>
+            <ID>3</ID>
+            <IdleAnimationDelay>4</IdleAnimationDelay>
+            <IdleDelay>20</IdleDelay>
+            <IdleView>0</IdleView>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <NormalView>4</NormalView>
+            <Properties />
+            <RealName>Terry</RealName>
+            <ScriptName>cTerry</ScriptName>
+            <Solid>True</Solid>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>12</SpeechColor>
+            <SpeechView>0</SpeechView>
+            <StartX>75</StartX>
+            <StartY>170</StartY>
+            <StartingRoom>1</StartingRoom>
+            <ThinkingView>0</ThinkingView>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
+          <Character>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <AnimationDelay>4</AnimationDelay>
+            <BlinkingView>0</BlinkingView>
+            <Clickable>True</Clickable>
+            <DiagonalLoops>True</DiagonalLoops>
+            <ID>5</ID>
+            <IdleAnimationDelay>4</IdleAnimationDelay>
+            <IdleDelay>20</IdleDelay>
+            <IdleView>0</IdleView>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <NormalView>1</NormalView>
+            <Properties />
+            <RealName>Alex</RealName>
+            <ScriptName>cAlex</ScriptName>
+            <Solid>True</Solid>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>12</SpeechColor>
+            <SpeechView>0</SpeechView>
+            <StartX>160</StartX>
+            <StartY>120</StartY>
+            <StartingRoom>-1</StartingRoom>
+            <ThinkingView>0</ThinkingView>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
+          <Character>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <AnimationDelay>4</AnimationDelay>
+            <BlinkingView>0</BlinkingView>
+            <Clickable>True</Clickable>
+            <DiagonalLoops>True</DiagonalLoops>
+            <ID>6</ID>
+            <IdleAnimationDelay>4</IdleAnimationDelay>
+            <IdleDelay>20</IdleDelay>
+            <IdleView>0</IdleView>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <NormalView>1</NormalView>
+            <Properties />
+            <RealName>Pickles</RealName>
+            <ScriptName>cPickles</ScriptName>
+            <Solid>True</Solid>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>12</SpeechColor>
+            <SpeechView>0</SpeechView>
+            <StartX>160</StartX>
+            <StartY>120</StartY>
+            <StartingRoom>-1</StartingRoom>
+            <ThinkingView>0</ThinkingView>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
+          <Character>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <AnimationDelay>4</AnimationDelay>
+            <BlinkingView>0</BlinkingView>
+            <Clickable>True</Clickable>
+            <DiagonalLoops>True</DiagonalLoops>
+            <ID>7</ID>
+            <IdleAnimationDelay>4</IdleAnimationDelay>
+            <IdleDelay>20</IdleDelay>
+            <IdleView>0</IdleView>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <NormalView>1</NormalView>
+            <Properties />
+            <RealName>Catticus</RealName>
+            <ScriptName>cCatticus</ScriptName>
+            <Solid>True</Solid>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>12</SpeechColor>
+            <SpeechView>0</SpeechView>
+            <StartX>160</StartX>
+            <StartY>120</StartY>
+            <StartingRoom>-1</StartingRoom>
+            <ThinkingView>0</ThinkingView>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
+          <Character>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <AnimationDelay>4</AnimationDelay>
+            <BlinkingView>0</BlinkingView>
+            <Clickable>True</Clickable>
+            <DiagonalLoops>True</DiagonalLoops>
+            <ID>8</ID>
+            <IdleAnimationDelay>4</IdleAnimationDelay>
+            <IdleDelay>20</IdleDelay>
+            <IdleView>0</IdleView>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <NormalView>1</NormalView>
+            <Properties />
+            <RealName xml:space="preserve">Sentient Hotdog</RealName>
+            <ScriptName>cHotdog</ScriptName>
+            <Solid>True</Solid>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>12</SpeechColor>
+            <SpeechView>0</SpeechView>
+            <StartX>160</StartX>
+            <StartY>120</StartY>
+            <StartingRoom>-1</StartingRoom>
+            <ThinkingView>0</ThinkingView>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
               <Event Index="4" />
@@ -4104,133 +4410,13 @@ stop
               <ImportAlphaChannel>True</ImportAlphaChannel>
             </Source>
           </Sprite>
-          <Sprite Slot="9" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+          <Sprite Slot="2" Width="128" Height="128" ColorDepth="32" Resolution="Real" AlphaChannel="True">
             <Source>
-              <FileName>Source/UI/NumPad/ConfirmButtonDefault.png</FileName>
+              <FileName>C:\Users\Phoenix\Downloads\GorillaNPC.png</FileName>
               <OffsetX>0</OffsetX>
               <OffsetY>0</OffsetY>
-              <ImportHeight>20</ImportHeight>
-              <ImportWidth>20</ImportWidth>
-              <ImportAsTile>False</ImportAsTile>
-              <Frame>0</Frame>
-              <RemapToGamePalette>False</RemapToGamePalette>
-              <RemapToRoomPalette>False</RemapToRoomPalette>
-              <ImportMethod>LeaveAsIs</ImportMethod>
-              <ImportAlphaChannel>True</ImportAlphaChannel>
-            </Source>
-          </Sprite>
-          <Sprite Slot="10" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-            <Source>
-              <FileName>Source/UI/NumPad/ConfirmButtonDisabled.png</FileName>
-              <OffsetX>0</OffsetX>
-              <OffsetY>0</OffsetY>
-              <ImportHeight>20</ImportHeight>
-              <ImportWidth>20</ImportWidth>
-              <ImportAsTile>False</ImportAsTile>
-              <Frame>0</Frame>
-              <RemapToGamePalette>False</RemapToGamePalette>
-              <RemapToRoomPalette>False</RemapToRoomPalette>
-              <ImportMethod>LeaveAsIs</ImportMethod>
-              <ImportAlphaChannel>True</ImportAlphaChannel>
-            </Source>
-          </Sprite>
-          <Sprite Slot="11" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-            <Source>
-              <FileName>Source/UI/NumPad/ConfirmButtonPressed.png</FileName>
-              <OffsetX>0</OffsetX>
-              <OffsetY>0</OffsetY>
-              <ImportHeight>20</ImportHeight>
-              <ImportWidth>20</ImportWidth>
-              <ImportAsTile>False</ImportAsTile>
-              <Frame>0</Frame>
-              <RemapToGamePalette>False</RemapToGamePalette>
-              <RemapToRoomPalette>False</RemapToRoomPalette>
-              <ImportMethod>LeaveAsIs</ImportMethod>
-              <ImportAlphaChannel>True</ImportAlphaChannel>
-            </Source>
-          </Sprite>
-          <Sprite Slot="12" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-            <Source>
-              <FileName>Source/UI/NumPad/DeleteButtonDefault.png</FileName>
-              <OffsetX>0</OffsetX>
-              <OffsetY>0</OffsetY>
-              <ImportHeight>20</ImportHeight>
-              <ImportWidth>20</ImportWidth>
-              <ImportAsTile>False</ImportAsTile>
-              <Frame>0</Frame>
-              <RemapToGamePalette>False</RemapToGamePalette>
-              <RemapToRoomPalette>False</RemapToRoomPalette>
-              <ImportMethod>LeaveAsIs</ImportMethod>
-              <ImportAlphaChannel>True</ImportAlphaChannel>
-            </Source>
-          </Sprite>
-          <Sprite Slot="13" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-            <Source>
-              <FileName>Source/UI/NumPad/DeleteButtonPressed.png</FileName>
-              <OffsetX>0</OffsetX>
-              <OffsetY>0</OffsetY>
-              <ImportHeight>20</ImportHeight>
-              <ImportWidth>20</ImportWidth>
-              <ImportAsTile>False</ImportAsTile>
-              <Frame>0</Frame>
-              <RemapToGamePalette>False</RemapToGamePalette>
-              <RemapToRoomPalette>False</RemapToRoomPalette>
-              <ImportMethod>LeaveAsIs</ImportMethod>
-              <ImportAlphaChannel>True</ImportAlphaChannel>
-            </Source>
-          </Sprite>
-          <Sprite Slot="14" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-            <Source>
-              <FileName>Source/UI/NumPad/NumPadButtonDefault.png</FileName>
-              <OffsetX>0</OffsetX>
-              <OffsetY>0</OffsetY>
-              <ImportHeight>20</ImportHeight>
-              <ImportWidth>20</ImportWidth>
-              <ImportAsTile>False</ImportAsTile>
-              <Frame>0</Frame>
-              <RemapToGamePalette>False</RemapToGamePalette>
-              <RemapToRoomPalette>False</RemapToRoomPalette>
-              <ImportMethod>LeaveAsIs</ImportMethod>
-              <ImportAlphaChannel>True</ImportAlphaChannel>
-            </Source>
-          </Sprite>
-          <Sprite Slot="15" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-            <Source>
-              <FileName>Source/UI/NumPad/NumPadButtonPressed.png</FileName>
-              <OffsetX>0</OffsetX>
-              <OffsetY>0</OffsetY>
-              <ImportHeight>20</ImportHeight>
-              <ImportWidth>20</ImportWidth>
-              <ImportAsTile>False</ImportAsTile>
-              <Frame>0</Frame>
-              <RemapToGamePalette>False</RemapToGamePalette>
-              <RemapToRoomPalette>False</RemapToRoomPalette>
-              <ImportMethod>LeaveAsIs</ImportMethod>
-              <ImportAlphaChannel>True</ImportAlphaChannel>
-            </Source>
-          </Sprite>
-          <Sprite Slot="16" Width="360" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-            <Source>
-              <FileName>Source/UI/NumPad/NumPadBackground.png</FileName>
-              <OffsetX>0</OffsetX>
-              <OffsetY>0</OffsetY>
-              <ImportHeight>200</ImportHeight>
-              <ImportWidth>360</ImportWidth>
-              <ImportAsTile>False</ImportAsTile>
-              <Frame>0</Frame>
-              <RemapToGamePalette>False</RemapToGamePalette>
-              <RemapToRoomPalette>False</RemapToRoomPalette>
-              <ImportMethod>LeaveAsIs</ImportMethod>
-              <ImportAlphaChannel>True</ImportAlphaChannel>
-            </Source>
-          </Sprite>
-          <Sprite Slot="17" Width="100" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-            <Source>
-              <FileName>Source/UI/NumPad/NumPad.png</FileName>
-              <OffsetX>0</OffsetX>
-              <OffsetY>0</OffsetY>
-              <ImportHeight>150</ImportHeight>
-              <ImportWidth>100</ImportWidth>
+              <ImportHeight>128</ImportHeight>
+              <ImportWidth>128</ImportWidth>
               <ImportAsTile>False</ImportAsTile>
               <Frame>0</Frame>
               <RemapToGamePalette>False</RemapToGamePalette>
@@ -4563,6 +4749,25 @@ stop
                     <Flipped>False</Flipped>
                     <ID>1</ID>
                     <Image>7</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>4</ID>
+            <Name>TerryNormal</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>2</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>

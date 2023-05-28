@@ -1,0 +1,27 @@
+Player x Pickles
+Look
+(He seems bright and happy. I wonder if I can get anything out of him.)
+
+Sign
+The sign says: This is Pickles. The bubbly Zebra. 
+
+Talk
+1.
+Player: Hi
+Pickles: Hello! You seem friendly! Wanna hear a joke?
+Dialogue Choice
+Choice 1: Sure.
+	Pickles: (Pickles tells the joke in the most elated voice imaginable.)
+	Player: (Your jaw is agape. How could someone so carefree and whimsical say something that messed up.)
+	Pickles: So, how was it?
+	Player: Uhhhhh
+	Pickles: You don't have to say anything! I can tell by your face that you loved it!
+	Pickles: Say, I bet if you told it to someone else, they'd love it just as much as you!
+Choice 2: Nah.
+	Pickles: Oh okay! That's fine! Later!
+
+Seduce
+2.
+Pickles: Wow, that was weird!
+
+
