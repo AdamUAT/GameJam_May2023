@@ -1912,12 +1912,12 @@
             </Interactions>
           </InventoryItem>
           <InventoryItem>
-            <CursorImage>56</CursorImage>
+            <CursorImage>69</CursorImage>
             <Description xml:space="preserve">Sentient Hotdog</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <ID>6</ID>
-            <Image>56</Image>
+            <Image>69</Image>
             <Name>iHotDog</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
@@ -5407,21 +5407,6 @@ stop
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="56" Width="32" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>Source/Objects/hot_dog.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>32</ImportHeight>
-                  <ImportWidth>32</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
               <Sprite Slot="57" Width="22" Height="22" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Source/Objects/StuffedAnimal.png</FileName>
@@ -5440,6 +5425,21 @@ stop
               <Sprite Slot="64" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Source/Objects/bat_item.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>20</ImportHeight>
+                  <ImportWidth>20</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="69" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Source/Objects/hot_dog.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
                   <ImportHeight>20</ImportHeight>
