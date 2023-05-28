@@ -1630,7 +1630,7 @@
             <ID>1</ID>
             <Image>2041</Image>
             <Name>iCup</Name>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties>
               <CustomProperty>
                 <Name>InstantUse</Name>
@@ -1664,14 +1664,14 @@
             </Interactions>
           </InventoryItem>
           <InventoryItem>
-            <CursorImage>0</CursorImage>
-            <Description xml:space="preserve">Turn into animal</Description>
-            <HotspotX>0</HotspotX>
-            <HotspotY>0</HotspotY>
+            <CursorImage>54</CursorImage>
+            <Description xml:space="preserve">Magic Amulet</Description>
+            <HotspotX>10</HotspotX>
+            <HotspotY>5</HotspotY>
             <ID>3</ID>
-            <Image>0</Image>
+            <Image>54</Image>
             <Name>iTransform</Name>
-            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <PlayerStartsWithItem>True</PlayerStartsWithItem>
             <Properties />
             <Interactions>
               <Event Index="0" />
@@ -1707,6 +1707,24 @@
             <ID>5</ID>
             <Image>0</Image>
             <Name>iBat</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>56</CursorImage>
+            <Description xml:space="preserve">Sentient Hotdog</Description>
+            <HotspotX>15</HotspotX>
+            <HotspotY>18</HotspotY>
+            <ID>6</ID>
+            <Image>56</Image>
+            <Name>iHotdog</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
             <Interactions>
@@ -2294,7 +2312,13 @@ Terry: "..."
 Player: It was worth a shot.
 return
 @3
+//only show after get joke from zebra
 goto-dialog dJokeTerry
+
+@4
+HiddenPlayer: Well you're no fun.
+Terry: "Hurumph."
+stop
 
 ]]></Script>
                 <DialogOptions>
@@ -2315,6 +2339,12 @@ goto-dialog dJokeTerry
                     <Say>False</Say>
                     <Show>True</Show>
                     <Text xml:space="preserve">Tell Joke</Text>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>4</ID>
+                    <Say>False</Say>
+                    <Show>True</Show>
+                    <Text>Leave</Text>
                   </DialogOption>
                 </DialogOptions>
               </Dialog>
@@ -2415,6 +2445,7 @@ return
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
+
 return
 @1
 Pickles: (Pickles tells the joke in the most elated voice imaginable.)
@@ -2565,6 +2596,7 @@ stop
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
+//need to get rid of the stuffed animal from inventory
 Debra: !!!
 HiddenPlayer: It's for you.
 Debra: Really!? Thank you so much friend!
@@ -2582,7 +2614,53 @@ stop
           </DialogFolder>
           <DialogFolder Name="ChestDialog">
             <SubFolders />
-            <Dialogs />
+            <Dialogs>
+              <Dialog>
+                <ID>11</ID>
+                <Name>dChestDialog</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+Player: Your father was a hamster and your mother smelt of elderberries!
+Player: .....
+Player: Huh, I really thought that would work.
+return
+@2
+Player: Youve got locks and hinges in all the right places
+//Chest opens
+add-inv 5
+Player: Cool a Baseball Bat 5000! I've always wanted one of these!
+stop
+@3
+Player: I'm a master at picking locks this'll be a piece of cake.
+Player: *lock picks snap*
+Player: Well, crap.
+return
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Say>False</Say>
+                    <Show>True</Show>
+                    <Text xml:space="preserve">Be Rude</Text>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Say>False</Say>
+                    <Show>True</Show>
+                    <Text>Seduce</Text>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Say>False</Say>
+                    <Show>True</Show>
+                    <Text xml:space="preserve">Pick Lock</Text>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+            </Dialogs>
           </DialogFolder>
           <DialogFolder Name="MaximusDialog">
             <SubFolders />
