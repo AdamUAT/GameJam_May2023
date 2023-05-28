@@ -1669,7 +1669,7 @@
             <HotspotX>10</HotspotX>
             <HotspotY>5</HotspotY>
             <ID>3</ID>
-            <Image>0</Image>
+            <Image>54</Image>
             <Name>iAmulet</Name>
             <PlayerStartsWithItem>True</PlayerStartsWithItem>
             <Properties />
