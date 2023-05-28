@@ -2049,7 +2049,7 @@
               <Event Index="0">cDebra_Look</Event>
               <Event Index="1">cDebra_Interact</Event>
               <Event Index="2" />
-              <Event Index="3" />
+              <Event Index="3">cDebra_UseInv</Event>
               <Event Index="4" />
               <Event Index="5" />
               <Event Index="6" />
@@ -2282,6 +2282,7 @@
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
+run-script 1
 return
 @1
 HiddenPlayer: Hello?
@@ -2291,7 +2292,7 @@ Terry: No talk to you.
 return
 @2
 Terry: "..."
-Player: It was worth a shot.
+HiddenPlayer: It was worth a shot.
 return
 @3
 goto-dialog dJokeTerry
@@ -2313,7 +2314,7 @@ goto-dialog dJokeTerry
                   <DialogOption>
                     <ID>3</ID>
                     <Say>False</Say>
-                    <Show>True</Show>
+                    <Show>False</Show>
                     <Text xml:space="preserve">Tell Joke</Text>
                   </DialogOption>
                 </DialogOptions>
@@ -2394,6 +2395,9 @@ goto-dialog dJokePickles
 @2
 Pickles: Wow, that was weird!
 return
+@3
+HiddenPlayer: Bye.
+stop
 ]]></Script>
                 <DialogOptions>
                   <DialogOption>
@@ -2408,6 +2412,12 @@ return
                     <Show>True</Show>
                     <Text>Seduce</Text>
                   </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Say>False</Say>
+                    <Show>True</Show>
+                    <Text>Exit</Text>
+                  </DialogOption>
                 </DialogOptions>
               </Dialog>
               <Dialog>
@@ -2420,10 +2430,12 @@ return
 @1
 Pickles: (Pickles tells the joke in the most elated voice imaginable.)
 HiddenPlayer: (Your jaw is agape. How could someone so carefree and whimsical say something that messed up.)
+run-script 2
 Pickles: So, how was it?
 HiddenPlayer: Uhhhhh
 Pickles: You don't have to say anything! I can tell by your face that you loved it!
 Pickles: Say, I bet if you told it to someone else, they'd love it just as much as you!
+run-script 3
 stop
 @2
 Pickles: Oh okay! That's fine! Later!
@@ -2470,6 +2482,9 @@ stop
 Alex: Not happening.
 HiddenPlayer: Figured.
 return
+@3
+HiddenPlayer: Bye.
+stop
 ]]></Script>
                 <DialogOptions>
                   <DialogOption>
@@ -2483,6 +2498,12 @@ return
                     <Say>False</Say>
                     <Show>True</Show>
                     <Text>Seduce</Text>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Say>False</Say>
+                    <Show>True</Show>
+                    <Text>Exit</Text>
                   </DialogOption>
                 </DialogOptions>
               </Dialog>
@@ -2605,6 +2626,9 @@ stop
 HiddenPlayer: Crap! It didn't work.
 return
 
+@4
+HiddenPlayer: (You walk away)
+stop
 ]]></Script>
                 <DialogOptions>
                   <DialogOption>
@@ -2624,6 +2648,12 @@ return
                     <Say>False</Say>
                     <Show>True</Show>
                     <Text xml:space="preserve">Pick lock</Text>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>4</ID>
+                    <Say>False</Say>
+                    <Show>True</Show>
+                    <Text>Exit</Text>
                   </DialogOption>
                 </DialogOptions>
               </Dialog>
@@ -2693,8 +2723,24 @@ Hotdog: "..."
 HiddenPlayer: Y'know what, whatever. Can you give me the code to free Maximus over there?
 Hotdog: Yes. If you free me.
 stop
+@2
+HiddenPlayer: Okay, bye.
+stop
 ]]></Script>
-                <DialogOptions />
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Say>False</Say>
+                    <Show>True</Show>
+                    <Text>Talk</Text>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Say>False</Say>
+                    <Show>True</Show>
+                    <Text>Exit</Text>
+                  </DialogOption>
+                </DialogOptions>
               </Dialog>
             </Dialogs>
           </DialogFolder>
