@@ -2397,7 +2397,7 @@
             <SubFolders />
             <Dialogs>
               <Dialog>
-                <ID>1</ID>
+                <ID>0</ID>
                 <Name>dDialogTerry</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -2450,7 +2450,7 @@ stop
                 </DialogOptions>
               </Dialog>
               <Dialog>
-                <ID>2</ID>
+                <ID>1</ID>
                 <Name>dJokeTerry</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -2490,7 +2490,7 @@ goto-dialog dStuffedReward
                 </DialogOptions>
               </Dialog>
               <Dialog>
-                <ID>3</ID>
+                <ID>2</ID>
                 <Name>dStuffedReward</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -2512,7 +2512,7 @@ stop]]></Script>
             <SubFolders />
             <Dialogs>
               <Dialog>
-                <ID>4</ID>
+                <ID>3</ID>
                 <Name>dDialogPickles</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -2551,7 +2551,7 @@ stop
                 </DialogOptions>
               </Dialog>
               <Dialog>
-                <ID>5</ID>
+                <ID>4</ID>
                 <Name>dJokePickles</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -2592,7 +2592,7 @@ stop
             <SubFolders />
             <Dialogs>
               <Dialog>
-                <ID>6</ID>
+                <ID>5</ID>
                 <Name>dDialogAlex</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -2638,7 +2638,7 @@ stop
                 </DialogOptions>
               </Dialog>
               <Dialog>
-                <ID>7</ID>
+                <ID>6</ID>
                 <Name>dGiveAlex</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -2685,7 +2685,7 @@ return
             <SubFolders />
             <Dialogs>
               <Dialog>
-                <ID>8</ID>
+                <ID>7</ID>
                 <Name>dDialogDebra</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -2725,7 +2725,7 @@ stop
                 </DialogOptions>
               </Dialog>
               <Dialog>
-                <ID>9</ID>
+                <ID>8</ID>
                 <Name>dGiveStuffedAnimal</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -2751,7 +2751,7 @@ stop
             <SubFolders />
             <Dialogs>
               <Dialog>
-                <ID>11</ID>
+                <ID>10</ID>
                 <Name>dDialogChest</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -2768,6 +2768,7 @@ HiddenPlayer: Let's see... !!!
 HiddenPlayer: Oh cool a bat!
 //obtain bat
   player.AddInventory(iBat);
+  openedChest = true;
 stop
 @3
 HiddenPlayer: Crap! It didn't work.
@@ -2810,7 +2811,7 @@ stop
             <SubFolders />
             <Dialogs>
               <Dialog>
-                <ID>10</ID>
+                <ID>9</ID>
                 <Name>dDialogMaximus</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -2855,7 +2856,7 @@ stop
             <SubFolders />
             <Dialogs>
               <Dialog>
-                <ID>12</ID>
+                <ID>11</ID>
                 <Name>dDialogHotdog</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -2897,7 +2898,7 @@ stop
             <SubFolders />
             <Dialogs>
               <Dialog>
-                <ID>13</ID>
+                <ID>12</ID>
                 <Name>dDialogAmulet</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -2947,46 +2948,7 @@ stop
             </Dialogs>
           </DialogFolder>
         </SubFolders>
-        <Dialogs>
-          <Dialog>
-            <ID>0</ID>
-            <Name>dTestDialog</Name>
-            <ShowTextParser>False</ShowTextParser>
-            <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-return
-@1
-CCHATCHARACTER: Response 1
-stop
-@2
-CCHATCHARACTER: Response 2
-stop
-@3
-CCHATCHARACTER: Response 3
-stop
-]]></Script>
-            <DialogOptions>
-              <DialogOption>
-                <ID>1</ID>
-                <Say>True</Say>
-                <Show>True</Show>
-                <Text xml:space="preserve">Dialogue 1</Text>
-              </DialogOption>
-              <DialogOption>
-                <ID>2</ID>
-                <Say>True</Say>
-                <Show>True</Show>
-                <Text xml:space="preserve">Dialogue 2</Text>
-              </DialogOption>
-              <DialogOption>
-                <ID>3</ID>
-                <Say>True</Say>
-                <Show>True</Show>
-                <Text xml:space="preserve">Dialogue 3</Text>
-              </DialogOption>
-            </DialogOptions>
-          </Dialog>
-        </Dialogs>
+        <Dialogs />
       </DialogFolder>
     </Dialogs>
     <Cursors>
@@ -3482,6 +3444,11 @@ stop
         <GlobalVariable>
           <DefaultValue>false</DefaultValue>
           <Name>obtainedHotdog</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>openedChest</Name>
           <Type>bool</Type>
         </GlobalVariable>
       </Variables>
