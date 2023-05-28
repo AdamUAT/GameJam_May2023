@@ -4975,7 +4975,7 @@ stop
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>64</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
-                  <Frame>1</Frame>
+                  <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
@@ -4990,7 +4990,7 @@ stop
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>64</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
-                  <Frame>2</Frame>
+                  <Frame>1</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
@@ -5005,7 +5005,7 @@ stop
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>64</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
-                  <Frame>3</Frame>
+                  <Frame>2</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
@@ -5020,7 +5020,7 @@ stop
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>64</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
-                  <Frame>4</Frame>
+                  <Frame>3</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
@@ -5035,7 +5035,7 @@ stop
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>64</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
-                  <Frame>5</Frame>
+                  <Frame>4</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
@@ -5050,7 +5050,7 @@ stop
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>64</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
-                  <Frame>6</Frame>
+                  <Frame>5</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
@@ -5065,7 +5065,7 @@ stop
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>64</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
-                  <Frame>7</Frame>
+                  <Frame>6</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
@@ -5080,7 +5080,7 @@ stop
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>64</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
-                  <Frame>8</Frame>
+                  <Frame>7</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
@@ -5095,7 +5095,7 @@ stop
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>64</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
-                  <Frame>9</Frame>
+                  <Frame>8</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
@@ -5110,7 +5110,7 @@ stop
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>64</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
-                  <Frame>10</Frame>
+                  <Frame>9</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
@@ -5125,7 +5125,7 @@ stop
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>64</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
-                  <Frame>11</Frame>
+                  <Frame>10</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
@@ -5140,7 +5140,7 @@ stop
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>64</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
-                  <Frame>12</Frame>
+                  <Frame>11</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
@@ -5155,7 +5155,7 @@ stop
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>64</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
-                  <Frame>13</Frame>
+                  <Frame>12</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
@@ -5170,7 +5170,7 @@ stop
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>64</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
-                  <Frame>14</Frame>
+                  <Frame>13</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
@@ -5185,7 +5185,7 @@ stop
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>64</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
-                  <Frame>15</Frame>
+                  <Frame>14</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
@@ -5200,7 +5200,7 @@ stop
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>64</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
-                  <Frame>16</Frame>
+                  <Frame>15</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
@@ -5215,7 +5215,7 @@ stop
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>64</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
-                  <Frame>17</Frame>
+                  <Frame>16</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
@@ -5230,7 +5230,7 @@ stop
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>64</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
-                  <Frame>18</Frame>
+                  <Frame>17</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
@@ -5245,7 +5245,7 @@ stop
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>64</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
-                  <Frame>19</Frame>
+                  <Frame>18</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
@@ -5260,7 +5260,7 @@ stop
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>64</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
-                  <Frame>20</Frame>
+                  <Frame>19</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
@@ -5275,7 +5275,7 @@ stop
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>64</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
-                  <Frame>21</Frame>
+                  <Frame>20</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
@@ -5290,7 +5290,7 @@ stop
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>64</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
-                  <Frame>22</Frame>
+                  <Frame>21</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
@@ -5305,7 +5305,7 @@ stop
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>64</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
-                  <Frame>23</Frame>
+                  <Frame>22</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
@@ -5320,7 +5320,7 @@ stop
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>64</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
-                  <Frame>24</Frame>
+                  <Frame>23</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
@@ -5335,7 +5335,7 @@ stop
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>64</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
-                  <Frame>25</Frame>
+                  <Frame>24</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
@@ -5343,6 +5343,21 @@ stop
                 </Source>
               </Sprite>
               <Sprite Slot="52" Width="64" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>Source/Objects/hot_dog.gif</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>64</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>25</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="53" Width="64" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                 <Source>
                   <FileName>Source/Objects/hot_dog.gif</FileName>
                   <OffsetX>0</OffsetX>
