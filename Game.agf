@@ -1712,6 +1712,98 @@
               </GUILabel>
             </Controls>
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>30</BackgroundImage>
+              <BorderColor>2</BorderColor>
+              <Clickable>True</Clickable>
+              <Height>300</Height>
+              <ID>8</ID>
+              <Left>0</Left>
+              <Name>gComboSticky</Name>
+              <OnClick>gComboSticky_OnClick</OnClick>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <Top>0</Top>
+              <Transparency>0</Transparency>
+              <Visible>False</Visible>
+              <Width>500</Width>
+              <ZOrder>0</ZOrder>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>115</Height>
+                <ID>0</ID>
+                <Image>65</Image>
+                <Left>185</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button2</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>92</Top>
+                <Visible>True</Visible>
+                <Width>130</Width>
+                <ZOrder>0</ZOrder>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>30</BackgroundImage>
+              <BorderColor>2</BorderColor>
+              <Clickable>True</Clickable>
+              <Height>300</Height>
+              <ID>9</ID>
+              <Left>0</Left>
+              <Name>gPhoneSticky</Name>
+              <OnClick>gPhoneSticky_OnClick</OnClick>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <Top>0</Top>
+              <Transparency>0</Transparency>
+              <Visible>False</Visible>
+              <Width>500</Width>
+              <ZOrder>0</ZOrder>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>116</Height>
+                <ID>0</ID>
+                <Image>66</Image>
+                <Left>185</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button1</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text />
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>96</Top>
+                <Visible>True</Visible>
+                <Width>130</Width>
+                <ZOrder>0</ZOrder>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -1820,12 +1912,12 @@
             </Interactions>
           </InventoryItem>
           <InventoryItem>
-            <CursorImage>56</CursorImage>
+            <CursorImage>69</CursorImage>
             <Description xml:space="preserve">Sentient Hotdog</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <ID>6</ID>
-            <Image>56</Image>
+            <Image>69</Image>
             <Name>iHotDog</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
@@ -2397,7 +2489,7 @@
             <SubFolders />
             <Dialogs>
               <Dialog>
-                <ID>1</ID>
+                <ID>0</ID>
                 <Name>dDialogTerry</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -2450,7 +2542,7 @@ stop
                 </DialogOptions>
               </Dialog>
               <Dialog>
-                <ID>2</ID>
+                <ID>1</ID>
                 <Name>dJokeTerry</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -2490,7 +2582,7 @@ goto-dialog dStuffedReward
                 </DialogOptions>
               </Dialog>
               <Dialog>
-                <ID>3</ID>
+                <ID>2</ID>
                 <Name>dStuffedReward</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -2512,7 +2604,7 @@ stop]]></Script>
             <SubFolders />
             <Dialogs>
               <Dialog>
-                <ID>4</ID>
+                <ID>3</ID>
                 <Name>dDialogPickles</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -2551,7 +2643,7 @@ stop
                 </DialogOptions>
               </Dialog>
               <Dialog>
-                <ID>5</ID>
+                <ID>4</ID>
                 <Name>dJokePickles</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -2592,7 +2684,7 @@ stop
             <SubFolders />
             <Dialogs>
               <Dialog>
-                <ID>6</ID>
+                <ID>5</ID>
                 <Name>dDialogAlex</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -2638,7 +2730,7 @@ stop
                 </DialogOptions>
               </Dialog>
               <Dialog>
-                <ID>7</ID>
+                <ID>6</ID>
                 <Name>dGiveAlex</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -2685,7 +2777,7 @@ return
             <SubFolders />
             <Dialogs>
               <Dialog>
-                <ID>8</ID>
+                <ID>7</ID>
                 <Name>dDialogDebra</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -2725,7 +2817,7 @@ stop
                 </DialogOptions>
               </Dialog>
               <Dialog>
-                <ID>9</ID>
+                <ID>8</ID>
                 <Name>dGiveStuffedAnimal</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -2751,7 +2843,7 @@ stop
             <SubFolders />
             <Dialogs>
               <Dialog>
-                <ID>11</ID>
+                <ID>10</ID>
                 <Name>dDialogChest</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -2768,6 +2860,7 @@ HiddenPlayer: Let's see... !!!
 HiddenPlayer: Oh cool a bat!
 //obtain bat
   player.AddInventory(iBat);
+  openedChest = true;
 stop
 @3
 HiddenPlayer: Crap! It didn't work.
@@ -2810,7 +2903,7 @@ stop
             <SubFolders />
             <Dialogs>
               <Dialog>
-                <ID>10</ID>
+                <ID>9</ID>
                 <Name>dDialogMaximus</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -2855,7 +2948,7 @@ stop
             <SubFolders />
             <Dialogs>
               <Dialog>
-                <ID>12</ID>
+                <ID>11</ID>
                 <Name>dDialogHotdog</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -2897,7 +2990,7 @@ stop
             <SubFolders />
             <Dialogs>
               <Dialog>
-                <ID>13</ID>
+                <ID>12</ID>
                 <Name>dDialogAmulet</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -2947,46 +3040,7 @@ stop
             </Dialogs>
           </DialogFolder>
         </SubFolders>
-        <Dialogs>
-          <Dialog>
-            <ID>0</ID>
-            <Name>dTestDialog</Name>
-            <ShowTextParser>False</ShowTextParser>
-            <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-return
-@1
-CCHATCHARACTER: Response 1
-stop
-@2
-CCHATCHARACTER: Response 2
-stop
-@3
-CCHATCHARACTER: Response 3
-stop
-]]></Script>
-            <DialogOptions>
-              <DialogOption>
-                <ID>1</ID>
-                <Say>True</Say>
-                <Show>True</Show>
-                <Text xml:space="preserve">Dialogue 1</Text>
-              </DialogOption>
-              <DialogOption>
-                <ID>2</ID>
-                <Say>True</Say>
-                <Show>True</Show>
-                <Text xml:space="preserve">Dialogue 2</Text>
-              </DialogOption>
-              <DialogOption>
-                <ID>3</ID>
-                <Say>True</Say>
-                <Show>True</Show>
-                <Text xml:space="preserve">Dialogue 3</Text>
-              </DialogOption>
-            </DialogOptions>
-          </Dialog>
-        </Dialogs>
+        <Dialogs />
       </DialogFolder>
     </Dialogs>
     <Cursors>
@@ -3482,6 +3536,11 @@ stop
         <GlobalVariable>
           <DefaultValue>false</DefaultValue>
           <Name>obtainedHotdog</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>openedChest</Name>
           <Type>bool</Type>
         </GlobalVariable>
       </Variables>
@@ -5348,21 +5407,6 @@ stop
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="56" Width="32" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>Source/Objects/hot_dog.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>32</ImportHeight>
-                  <ImportWidth>32</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
               <Sprite Slot="57" Width="22" Height="22" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Source/Objects/StuffedAnimal.png</FileName>
@@ -5381,6 +5425,21 @@ stop
               <Sprite Slot="64" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Source/Objects/bat_item.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>20</ImportHeight>
+                  <ImportWidth>20</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="69" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Source/Objects/hot_dog.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
                   <ImportHeight>20</ImportHeight>
