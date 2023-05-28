@@ -5837,6 +5837,26 @@ stop
               </Sprite>
             </Sprites>
           </SpriteFolder>
+          <SpriteFolder Name="GUI">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="65" Width="130" Height="115" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Source/UI/sticky_note.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>115</ImportHeight>
+                  <ImportWidth>130</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="10" Height="6" ColorDepth="32" Resolution="Real" AlphaChannel="True">
