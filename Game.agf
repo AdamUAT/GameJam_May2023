@@ -3110,12 +3110,22 @@ stop
       <Variables>
         <GlobalVariable>
           <DefaultValue>false</DefaultValue>
-          <Name>cTestCharacter_isEnergetic</Name>
+          <Name>knowTerryName</Name>
           <Type>bool</Type>
         </GlobalVariable>
         <GlobalVariable>
           <DefaultValue>false</DefaultValue>
-          <Name>oTestDoor_isOpen</Name>
+          <Name>knowDebraName</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>knowAlexName</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>knowPicklesName</Name>
           <Type>bool</Type>
         </GlobalVariable>
       </Variables>
