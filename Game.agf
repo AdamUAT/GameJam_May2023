@@ -1669,10 +1669,15 @@
             <HotspotX>10</HotspotX>
             <HotspotY>5</HotspotY>
             <ID>3</ID>
-            <Image>0</Image>
+            <Image>54</Image>
             <Name>iAmulet</Name>
             <PlayerStartsWithItem>True</PlayerStartsWithItem>
-            <Properties />
+            <Properties>
+              <CustomProperty>
+                <Name>InstantUse</Name>
+                <Value>1</Value>
+              </CustomProperty>
+            </Properties>
             <Interactions>
               <Event Index="0" />
               <Event Index="1">iAmulet_Interact</Event>
@@ -2377,9 +2382,8 @@ goto-dialog dStuffedReward
 @S  // Dialog startup entry point
 Terry: "..."
 Terry: "......"
-Terry: &1 AHAHAHAHAHAHAHA
+Terry: &1 heheheheheh
 Terry: You have made Terry's day. Here, have my stuffed animal.
-  player.AddInventory(iStuffedAnimal);
 HiddenPlayer: (You take the stuffed animal, but you're just glad to be away from this dude who clearly has issues.)
   object[0].Visible = false;
 run-script 6
@@ -2608,6 +2612,7 @@ Debra: Lick... the amulet? Well if that's what you want.
 Debra: (She goes up to the amulet gives it a quick lick, making it glow for a brief moment)
 HiddenPlayer: Thanks, that'll be all!
 Debra: Later!
+HiddenPlayer: (You can become a lizard now.)
 run-script 4
 stop
 ]]></Script>
@@ -2784,25 +2789,25 @@ stop
 HiddenPlayer: (You're a lizard, Harry! Super scaly but also REALLY small!)
 run-script 10
 run-script 11
-run-script 11
+run-script 12
 stop
 ]]></Script>
                 <DialogOptions>
                   <DialogOption>
                     <ID>1</ID>
-                    <Say>True</Say>
+                    <Say>False</Say>
                     <Show>True</Show>
                     <Text>Human</Text>
                   </DialogOption>
                   <DialogOption>
                     <ID>2</ID>
-                    <Say>True</Say>
+                    <Say>False</Say>
                     <Show>True</Show>
                     <Text>Cat</Text>
                   </DialogOption>
                   <DialogOption>
                     <ID>3</ID>
-                    <Say>True</Say>
+                    <Say>False</Say>
                     <Show>False</Show>
                     <Text>Lizard</Text>
                   </DialogOption>
@@ -3307,6 +3312,21 @@ stop
         <GlobalVariable>
           <DefaultValue>false</DefaultValue>
           <Name>knowPicklesName</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>isLizard</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>isCat</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>true</DefaultValue>
+          <Name>isHuman</Name>
           <Type>bool</Type>
         </GlobalVariable>
       </Variables>
