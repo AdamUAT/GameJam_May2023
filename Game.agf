@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>20</AudioIndexer>
+      <AudioIndexer>21</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
@@ -1182,10 +1182,10 @@
           <GUIMain>
             <NormalGUI>
               <BackgroundColor>0</BackgroundColor>
-              <BackgroundImage>16</BackgroundImage>
+              <BackgroundImage>23</BackgroundImage>
               <BorderColor>2</BorderColor>
               <Clickable>True</Clickable>
-              <Height>200</Height>
+              <Height>300</Height>
               <ID>5</ID>
               <Left>0</Left>
               <Name>gNumPad</Name>
@@ -1195,7 +1195,7 @@
               <Top>0</Top>
               <Transparency>0</Transparency>
               <Visible>False</Visible>
-              <Width>360</Width>
+              <Width>500</Width>
               <ZOrder>0</ZOrder>
             </NormalGUI>
             <Controls>
@@ -1205,14 +1205,14 @@
                 <Font>0</Font>
                 <Height>20</Height>
                 <ID>0</ID>
-                <Left>143</Left>
+                <Left>213</Left>
                 <Locked>True</Locked>
                 <Name>NumDisplay</Name>
                 <OnActivate />
                 <ShowBorder>False</ShowBorder>
                 <Text />
                 <TextColor>0</TextColor>
-                <Top>42</Top>
+                <Top>95</Top>
                 <Visible>True</Visible>
                 <Width>34</Width>
                 <ZOrder>1</ZOrder>
@@ -1226,7 +1226,7 @@
                 <Height>20</Height>
                 <ID>1</ID>
                 <Image>0</Image>
-                <Left>150</Left>
+                <Left>220</Left>
                 <Locked>True</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>Num0</Name>
@@ -1236,7 +1236,7 @@
                 <Text>0</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>145</Top>
+                <Top>198</Top>
                 <Visible>True</Visible>
                 <Width>20</Width>
                 <ZOrder>2</ZOrder>
@@ -1250,7 +1250,7 @@
                 <Height>20</Height>
                 <ID>2</ID>
                 <Image>0</Image>
-                <Left>150</Left>
+                <Left>220</Left>
                 <Locked>True</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>Num8</Name>
@@ -1260,7 +1260,7 @@
                 <Text>8</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>123</Top>
+                <Top>176</Top>
                 <Visible>True</Visible>
                 <Width>20</Width>
                 <ZOrder>3</ZOrder>
@@ -1274,7 +1274,7 @@
                 <Height>20</Height>
                 <ID>3</ID>
                 <Image>0</Image>
-                <Left>150</Left>
+                <Left>220</Left>
                 <Locked>True</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>Num5</Name>
@@ -1284,7 +1284,7 @@
                 <Text>5</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>101</Top>
+                <Top>154</Top>
                 <Visible>True</Visible>
                 <Width>20</Width>
                 <ZOrder>4</ZOrder>
@@ -1298,7 +1298,7 @@
                 <Height>20</Height>
                 <ID>4</ID>
                 <Image>0</Image>
-                <Left>125</Left>
+                <Left>195</Left>
                 <Locked>True</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>Num1</Name>
@@ -1308,7 +1308,7 @@
                 <Text>1</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>79</Top>
+                <Top>132</Top>
                 <Visible>True</Visible>
                 <Width>20</Width>
                 <ZOrder>5</ZOrder>
@@ -1322,7 +1322,7 @@
                 <Height>20</Height>
                 <ID>5</ID>
                 <Image>0</Image>
-                <Left>150</Left>
+                <Left>220</Left>
                 <Locked>True</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>Num2</Name>
@@ -1332,7 +1332,7 @@
                 <Text>2</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>79</Top>
+                <Top>132</Top>
                 <Visible>True</Visible>
                 <Width>20</Width>
                 <ZOrder>6</ZOrder>
@@ -1346,7 +1346,7 @@
                 <Height>20</Height>
                 <ID>6</ID>
                 <Image>0</Image>
-                <Left>125</Left>
+                <Left>195</Left>
                 <Locked>True</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>Num7</Name>
@@ -1356,7 +1356,7 @@
                 <Text>7</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>123</Top>
+                <Top>176</Top>
                 <Visible>True</Visible>
                 <Width>20</Width>
                 <ZOrder>7</ZOrder>
@@ -1370,7 +1370,7 @@
                 <Height>20</Height>
                 <ID>7</ID>
                 <Image>0</Image>
-                <Left>125</Left>
+                <Left>195</Left>
                 <Locked>True</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>Num4</Name>
@@ -1380,7 +1380,7 @@
                 <Text>4</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>101</Top>
+                <Top>154</Top>
                 <Visible>True</Visible>
                 <Width>20</Width>
                 <ZOrder>8</ZOrder>
@@ -1394,7 +1394,7 @@
                 <Height>20</Height>
                 <ID>8</ID>
                 <Image>0</Image>
-                <Left>175</Left>
+                <Left>245</Left>
                 <Locked>True</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>Num6</Name>
@@ -1404,7 +1404,7 @@
                 <Text>6</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>101</Top>
+                <Top>154</Top>
                 <Visible>True</Visible>
                 <Width>20</Width>
                 <ZOrder>9</ZOrder>
@@ -1418,7 +1418,7 @@
                 <Height>20</Height>
                 <ID>9</ID>
                 <Image>0</Image>
-                <Left>175</Left>
+                <Left>245</Left>
                 <Locked>True</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>Num9</Name>
@@ -1428,7 +1428,7 @@
                 <Text>9</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>123</Top>
+                <Top>176</Top>
                 <Visible>True</Visible>
                 <Width>20</Width>
                 <ZOrder>10</ZOrder>
@@ -1442,7 +1442,7 @@
                 <Height>20</Height>
                 <ID>10</ID>
                 <Image>0</Image>
-                <Left>175</Left>
+                <Left>245</Left>
                 <Locked>True</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>Num3</Name>
@@ -1452,7 +1452,7 @@
                 <Text>3</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>79</Top>
+                <Top>132</Top>
                 <Visible>True</Visible>
                 <Width>20</Width>
                 <ZOrder>11</ZOrder>
@@ -1465,18 +1465,18 @@
                 <Font>0</Font>
                 <Height>20</Height>
                 <ID>11</ID>
-                <Image>10</Image>
-                <Left>125</Left>
+                <Image>18</Image>
+                <Left>195</Left>
                 <Locked>True</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>EnterButton</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>EnterButton_OnClick</OnClick>
-                <PushedImage>11</PushedImage>
+                <PushedImage>19</PushedImage>
                 <Text />
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>145</Top>
+                <Top>198</Top>
                 <Visible>True</Visible>
                 <Width>20</Width>
                 <ZOrder>12</ZOrder>
@@ -1489,18 +1489,18 @@
                 <Font>0</Font>
                 <Height>20</Height>
                 <ID>12</ID>
-                <Image>12</Image>
-                <Left>175</Left>
+                <Image>20</Image>
+                <Left>245</Left>
                 <Locked>True</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>BackButton</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>BackButton_OnClick</OnClick>
-                <PushedImage>13</PushedImage>
+                <PushedImage>21</PushedImage>
                 <Text />
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>145</Top>
+                <Top>198</Top>
                 <Visible>True</Visible>
                 <Width>20</Width>
                 <ZOrder>13</ZOrder>
@@ -1513,8 +1513,8 @@
                 <Font>0</Font>
                 <Height>150</Height>
                 <ID>13</ID>
-                <Image>17</Image>
-                <Left>110</Left>
+                <Image>22</Image>
+                <Left>180</Left>
                 <Locked>True</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>NumPadBody</Name>
@@ -1524,7 +1524,7 @@
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>25</Top>
+                <Top>78</Top>
                 <Visible>True</Visible>
                 <Width>100</Width>
                 <ZOrder>0</ZOrder>
@@ -4708,11 +4708,162 @@ stop
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
+              <Sprite Slot="14" Width="64" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Source/Characters/IguanaNPC.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>64</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="Numpad">
             <SubFolders />
-            <Sprites />
+            <Sprites>
+              <Sprite Slot="15" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Source/UI/NumPad/ConfirmButtonDefault.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>20</ImportHeight>
+                  <ImportWidth>20</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="18" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Source/UI/NumPad/ConfirmButtonDisabled.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>20</ImportHeight>
+                  <ImportWidth>20</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="19" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Source/UI/NumPad/ConfirmButtonPressed.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>20</ImportHeight>
+                  <ImportWidth>20</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="20" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Source/UI/NumPad/DeleteButtonDefault.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>20</ImportHeight>
+                  <ImportWidth>20</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="21" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Source/UI/NumPad/DeleteButtonPressed.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>20</ImportHeight>
+                  <ImportWidth>20</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="22" Width="100" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Source/UI/NumPad/NumPad.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>150</ImportHeight>
+                  <ImportWidth>100</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="23" Width="500" Height="300" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Source/UI/NumPad/NumPadBackground.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>300</ImportHeight>
+                  <ImportWidth>500</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="24" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Source/UI/NumPad/NumPadButtonDefault.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>20</ImportHeight>
+                  <ImportWidth>20</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="25" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Source/UI/NumPad/NumPadButtonPressed.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>20</ImportHeight>
+                  <ImportWidth>20</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+            </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="Items">
             <SubFolders />
