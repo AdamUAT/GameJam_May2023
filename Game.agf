@@ -2177,7 +2177,7 @@
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
             <Interactions>
               <Event Index="0" />
-              <Event Index="1" />
+              <Event Index="1">cHotdog_Interact</Event>
               <Event Index="2" />
               <Event Index="3" />
               <Event Index="4" />
@@ -2288,6 +2288,7 @@ Terry: "..."
 Terry: "......"
 Terry: &1 AHAHAHAHAHAHAHA
 Terry: You have made Terry's day. Here, have my stuffed animal.
+  player.AddInventory(iStuffedAnimal);
 HiddenPlayer: (You take the stuffed animal, but you're just glad to be away from this dude who clearly has issues.)
 stop]]></Script>
                 <DialogOptions />
@@ -2500,7 +2501,51 @@ stop
           </DialogFolder>
           <DialogFolder Name="ChestDialog">
             <SubFolders />
-            <Dialogs />
+            <Dialogs>
+              <Dialog>
+                <ID>11</ID>
+                <Name>dDialogChest</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+HiddenPlayer: Oh I don't think it liked it very much.
+return
+@2
+HiddenPlayer: Whoa it opened! Didn't think my rizz was that good.
+HiddenPlayer: Let's see... !!!
+HiddenPlayer: Oh cool a bat!
+//obtain bat
+  player.AddInventory(iBat);
+stop
+@3
+HiddenPlayer: Crap! It didn't work.
+return
+
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Say>False</Say>
+                    <Show>True</Show>
+                    <Text xml:space="preserve">Be rude</Text>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Say>False</Say>
+                    <Show>True</Show>
+                    <Text>Seduce</Text>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Say>False</Say>
+                    <Show>True</Show>
+                    <Text xml:space="preserve">Pick lock</Text>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+            </Dialogs>
           </DialogFolder>
           <DialogFolder Name="MaximusDialog">
             <SubFolders />
@@ -2517,10 +2562,12 @@ HiddenPlayer: I'm gonna get you out. I promise.
 return
 @2
 //Open keypad
+  gNumPad.Visible = true;
+  NumPadBeginPuzzle();
 return
 @3
 HiddenPlayer: I'll come back for you.
-return
+stop
 ]]></Script>
                 <DialogOptions>
                   <DialogOption>
@@ -2547,7 +2594,27 @@ return
           </DialogFolder>
           <DialogFolder Name="HotdogDialog">
             <SubFolders />
-            <Dialogs />
+            <Dialogs>
+              <Dialog>
+                <ID>12</ID>
+                <Name>dDialogHotdog</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+Hotdog: Free me and I'll give you anything you desire.
+HiddenPlayer: Whoa! How are you talking?
+Hotdog: Am I really talking? Or is it your mind wanting you to think that I am talking before you?
+HiddenPlayer: Listen, I'm not that crazy.
+Hotdog: "..."
+HiddenPlayer: Y'know what, whatever. Can you give me the code to free Maximus over there?
+Hotdog: Yes. If you free me.
+stop
+]]></Script>
+                <DialogOptions />
+              </Dialog>
+            </Dialogs>
           </DialogFolder>
         </SubFolders>
         <Dialogs>
