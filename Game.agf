@@ -1630,7 +1630,7 @@
             <ID>1</ID>
             <Image>2041</Image>
             <Name>iCup</Name>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties>
               <CustomProperty>
                 <Name>InstantUse</Name>
@@ -1664,14 +1664,14 @@
             </Interactions>
           </InventoryItem>
           <InventoryItem>
-            <CursorImage>0</CursorImage>
-            <Description xml:space="preserve">Turn into animal</Description>
-            <HotspotX>0</HotspotX>
-            <HotspotY>0</HotspotY>
+            <CursorImage>54</CursorImage>
+            <Description xml:space="preserve">Magic Amulet</Description>
+            <HotspotX>10</HotspotX>
+            <HotspotY>5</HotspotY>
             <ID>3</ID>
-            <Image>0</Image>
+            <Image>54</Image>
             <Name>iTransform</Name>
-            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <PlayerStartsWithItem>True</PlayerStartsWithItem>
             <Properties />
             <Interactions>
               <Event Index="0" />
@@ -1911,7 +1911,7 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>160</StartX>
+            <StartX>250</StartX>
             <StartY>1</StartY>
             <StartingRoom>4</StartingRoom>
             <ThinkingView>0</ThinkingView>
@@ -2297,6 +2297,10 @@ return
 @3
 goto-dialog dJokeTerry
 
+@4
+HiddenPlayer: You're no fun
+Terry: "Hurumph"
+stop
 ]]></Script>
                 <DialogOptions>
                   <DialogOption>
@@ -2316,6 +2320,12 @@ goto-dialog dJokeTerry
                     <Say>False</Say>
                     <Show>False</Show>
                     <Text xml:space="preserve">Tell Joke</Text>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>4</ID>
+                    <Say>False</Say>
+                    <Show>True</Show>
+                    <Text>Leave</Text>
                   </DialogOption>
                 </DialogOptions>
               </Dialog>
@@ -2372,6 +2382,7 @@ Terry: You have made Terry's day. Here, have my stuffed animal.
   player.AddInventory(iStuffedAnimal);
 HiddenPlayer: (You take the stuffed animal, but you're just glad to be away from this dude who clearly has issues.)
   object[0].Visible = false;
+run-script 6
 add-inv 4
 stop]]></Script>
                 <DialogOptions />
@@ -2524,6 +2535,7 @@ Alex: I have lived for millenia and my essence is far greater than any of the il
 Alex: Gargaloth the Destroyer! Remember that name as it'll be the last thing you hear at this universe's end!
 HiddenPlayer: (You walk away slowly.)
 HiddenPlayer: (Let's just pretend like that didn't happen before the existential dread starts creeping up again.)
+run-script 5
 stop
 
 ]]></Script>
@@ -2596,6 +2608,7 @@ Debra: Lick... the amulet? Well if that's what you want.
 Debra: (She goes up to the amulet gives it a quick lick, making it glow for a brief moment)
 HiddenPlayer: Thanks, that'll be all!
 Debra: Later!
+run-script 4
 stop
 ]]></Script>
                 <DialogOptions />
