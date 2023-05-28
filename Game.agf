@@ -1535,6 +1535,86 @@
               </GUIButton>
             </Controls>
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <BackgroundColor>50712</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <BorderColor>2</BorderColor>
+              <Clickable>True</Clickable>
+              <Height>300</Height>
+              <ID>6</ID>
+              <Left>0</Left>
+              <Name>gCredits</Name>
+              <OnClick />
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <Top>0</Top>
+              <Transparency>0</Transparency>
+              <Visible>False</Visible>
+              <Width>500</Width>
+              <ZOrder>0</ZOrder>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>250</Height>
+                <ID>0</ID>
+                <Left>95</Left>
+                <Locked>True</Locked>
+                <Name>Position</Name>
+                <Text xml:space="preserve">Lead Designer:[Puzzle Designer:[Writer:[Misc. Designer:[[Game Programmers:[[Engine Programmer:[UI Programmer[[Lead Artist:[Artist:[[Lead Sound Designer:[[Vocal Talent[Terry the Gorilla:[Beep Boop Machine:[Various others:</Text>
+                <TextAlignment>Right</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>25</Top>
+                <Visible>True</Visible>
+                <Width>150</Width>
+                <ZOrder>0</ZOrder>
+              </GUILabel>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>250</Height>
+                <ID>1</ID>
+                <Left>255</Left>
+                <Locked>True</Locked>
+                <Name>Name</Name>
+                <Text xml:space="preserve">Kyler Burson[Nathan Silva[Phoenix Ross[Everyone[[Kyler Burson[Phoenix Ross[Adam White[Adam White[[Dylan Hamilton[Nathan Silva[[Kyler Burson[[[Nathan Silva[Adam White[Kyler Burson</Text>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>25</Top>
+                <Visible>True</Visible>
+                <Width>150</Width>
+                <ZOrder>1</ZOrder>
+              </GUILabel>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>25</Height>
+                <ID>2</ID>
+                <Image>0</Image>
+                <Left>200</Left>
+                <Locked>True</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Exit</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>Exit_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>Close</Text>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>261</Top>
+                <Visible>True</Visible>
+                <Width>100</Width>
+                <ZOrder>2</ZOrder>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -1602,12 +1682,12 @@
             </Interactions>
           </InventoryItem>
           <InventoryItem>
-            <CursorImage>0</CursorImage>
+            <CursorImage>57</CursorImage>
             <Description xml:space="preserve">Stuffed Animal</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <ID>4</ID>
-            <Image>0</Image>
+            <Image>57</Image>
             <Name>iStuffedAnimal</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
@@ -1833,7 +1913,7 @@
             <SpeechView>0</SpeechView>
             <StartX>160</StartX>
             <StartY>1</StartY>
-            <StartingRoom>3</StartingRoom>
+            <StartingRoom>4</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -1875,7 +1955,7 @@
             <SpeechView>0</SpeechView>
             <StartX>427</StartX>
             <StartY>110</StartY>
-            <StartingRoom>1</StartingRoom>
+            <StartingRoom>-1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -1915,9 +1995,9 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>148</StartX>
-            <StartY>144</StartY>
-            <StartingRoom>2</StartingRoom>
+            <StartX>614</StartX>
+            <StartY>100</StartY>
+            <StartingRoom>-1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -1957,8 +2037,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>33</StartX>
-            <StartY>192</StartY>
+            <StartX>52</StartX>
+            <StartY>259</StartY>
             <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -1999,8 +2079,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>247</StartX>
-            <StartY>142</StartY>
+            <StartX>161</StartX>
+            <StartY>205</StartY>
             <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -2011,7 +2091,7 @@
               <Event Index="0">cTerry_Look</Event>
               <Event Index="1">cTerry_Interact</Event>
               <Event Index="2">cTerry_Talk</Event>
-              <Event Index="3" />
+              <Event Index="3">cTerry_UseInv</Event>
               <Event Index="4" />
               <Event Index="5" />
               <Event Index="6" />
@@ -2041,8 +2121,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>98</StartX>
-            <StartY>129</StartY>
+            <StartX>459</StartX>
+            <StartY>269</StartY>
             <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -2070,7 +2150,7 @@
             <ID>6</ID>
             <IdleAnimationDelay>4</IdleAnimationDelay>
             <IdleDelay>20</IdleDelay>
-            <IdleView>0</IdleView>
+            <IdleView>5</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -2083,8 +2163,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>273</StartX>
-            <StartY>217</StartY>
+            <StartX>342</StartX>
+            <StartY>203</StartY>
             <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -2290,6 +2370,8 @@ Terry: &1 AHAHAHAHAHAHAHA
 Terry: You have made Terry's day. Here, have my stuffed animal.
   player.AddInventory(iStuffedAnimal);
 HiddenPlayer: (You take the stuffed animal, but you're just glad to be away from this dude who clearly has issues.)
+  object[0].Visible = false;
+add-inv 4
 stop]]></Script>
                 <DialogOptions />
               </Dialog>
@@ -3097,12 +3179,22 @@ stop
       <Variables>
         <GlobalVariable>
           <DefaultValue>false</DefaultValue>
-          <Name>cTestCharacter_isEnergetic</Name>
+          <Name>knowTerryName</Name>
           <Type>bool</Type>
         </GlobalVariable>
         <GlobalVariable>
           <DefaultValue>false</DefaultValue>
-          <Name>oTestDoor_isOpen</Name>
+          <Name>knowDebraName</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>knowAlexName</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>knowPicklesName</Name>
           <Type>bool</Type>
         </GlobalVariable>
       </Variables>
@@ -4954,6 +5046,51 @@ stop
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
+              <Sprite Slot="54" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Source/Objects/MagicAmulet.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>20</ImportHeight>
+                  <ImportWidth>20</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="56" Width="32" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Source/Objects/hot_dog.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>32</ImportHeight>
+                  <ImportWidth>32</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="57" Width="22" Height="22" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Source/Objects/StuffedAnimal.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>22</ImportHeight>
+                  <ImportWidth>22</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="Props">
@@ -5433,6 +5570,81 @@ stop
                   <ImportWidth>64</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>26</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="55" Width="100" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Source/Objects/Maximus_wKeypad.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>200</ImportHeight>
+                  <ImportWidth>100</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="58" Width="180" Height="180" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Source/Objects/Cage_Top.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>180</ImportHeight>
+                  <ImportWidth>180</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="59" Width="180" Height="180" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Source/Objects/Cage_Top_Flip.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>180</ImportHeight>
+                  <ImportWidth>180</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="60" Width="50" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Source/Objects/AnimalSign.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>50</ImportHeight>
+                  <ImportWidth>50</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="61" Width="50" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Source/Objects/AnimalSign_Flip.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>50</ImportHeight>
+                  <ImportWidth>50</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
@@ -5953,7 +6165,7 @@ stop
                 <Frames>
                   <ViewFrame>
                     <Delay>0</Delay>
-                    <Flipped>False</Flipped>
+                    <Flipped>True</Flipped>
                     <ID>0</ID>
                     <Image>21</Image>
                     <Sound>0</Sound>
@@ -6093,12 +6305,29 @@ stop
               </Loop>
             </Loops>
           </View>
+          <View>
+            <ID>8</ID>
+            <Name>CageFlip</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>0</ID>
+                    <Image>58</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
         </Views>
       </ViewFolder>
     </Views>
-    <DeletedViews>
-      <ViewID>8</ViewID>
-    </DeletedViews>
+    <DeletedViews />
     <Scripts>
       <ScriptFolder Name="Main">
         <SubFolders />
@@ -6550,7 +6779,9 @@ stop
   <Component Name="Translations" />
   <Component Name="MusicAndSpeech">
     <SpeechVoxFiles>
-      <Folder Name="speech" />
+      <Folder Name="speech">
+        <File Name="speech\terr1.wav" FileTime="2023-05-28 03:32:40Z" />
+      </Folder>
     </SpeechVoxFiles>
     <PamFiles>
       <Folder Name="speech" />
