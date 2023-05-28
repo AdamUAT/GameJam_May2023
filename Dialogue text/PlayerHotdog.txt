@@ -1,0 +1,21 @@
+Player x Hot Dog
+Look
+(It's a hot dog inside a jar. It's staring into your soul.)
+
+Talk
+1.
+Hotdog: Free me and I'll give you anything you desire.
+Player: Whoa! How are you talking?
+Hotdog: Am I really? Or is it your mind wanting you to think that I am talking before you?
+Player: Listen, I'm not that crazy.
+Player: Y'know what, whatever. Can you give me the code to free Catticus over there?
+Hotdog: Yes. If you free me.
+
+Uses bat on jar.
+2.
+Hotdog: I am free at last!
+Player: Alright, now can you tell me how to free Catticus then?
+Hotdog: For that, my friend you must look to the names of higher life forms.
+Hotdog: Perhaps if you use their first letters, you might free Catticus over there.
+
+	

@@ -1,0 +1,40 @@
+Player x Ocelot
+Look
+(Aww he's so cute!)
+
+Sign
+The sign says: This is Alex, the mysterious yet loveable ocelot. His favorite food is hot dogs.
+
+Talk
+1.
+Player: Hey
+Alex: This isn't good...
+Player: What isn't?
+Alex: My friend over there, the lizard. She isn't feeling like herself.
+Alex: Can you help her out. I can't do anything from this cage.
+Player: Sure. Do you know what she needs?
+Alex: Yeah, she gets lonely easily. If you can get her a fluffy buddy, she'll love it.
+Player: Roger, roger.
+
+Seduce
+2.
+Alex: Not happening.
+Player: Figured.
+
+Coming back to Alex with Hot Dog
+Talk
+3.
+Alex: Oh hey friend! You're back!
+
+Dialogue choice:
+Choice 1: Sacrifice Hot Dog
+	Alex: Oh? A hot dog, my favorite!
+	Player: (You can hear the hot dog's screams of agony.)
+	Alex: (As the hot dog's life gets consumed, Alex's mannerisms begin to change as if possessed by another being.)
+	Alex: Greetings mortal! You have offered me sufficient sacrifice! For that, I shall reveal to you my true name!
+	Alex: Hear me mortal! My name is Gargaloth the Destroyer! While I possess flesh, do not mistake me for a mere mortal!
+	Alex: I have lived for millenia and my essence is far greater than any of the ilk that roam this planet!
+	Alex: Gargaloth the Destroyer! Remember that name as it'll be the last thing you hear at this universe's end!
+	Player: (You walk away slowly.)
+	Player: (Let's just pretend like that didn't happen before the existential dread starts creeping up again.)
+	

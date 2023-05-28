@@ -1,0 +1,28 @@
+Player x Debra
+Look
+(She seems lonely. Doesn't seem much for conversation right now.)
+
+Sign
+The sign says: This is Debra, the great lizard. She hates being alone so be sure to say hi! 
+
+Talk
+1.
+Player: Heya. How's it going?
+Debra: I don't really wanna talk right now...
+
+Seduce
+2.
+Debra: Bro...
+Player: My bad.
+
+Give stuffed animal
+3.
+Debra: !!!
+Player: It's for you.
+Debra: Really!? Thank you so much friend!
+Debra: Is there anything I can do to repay you?
+Player: Well there is one thing... Can you lick this amulet?
+Debra: Lick... the amulet? Well if that's what you want.
+Debra: (She goes up to the amulet gives it a quick lick, making it glow for a brief moment)
+Player: Thanks, that'll be all!
+Debra: Later!
