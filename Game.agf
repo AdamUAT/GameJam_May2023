@@ -1807,7 +1807,7 @@
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <ID>5</ID>
-            <Image>10</Image>
+            <Image>64</Image>
             <Name>iBat</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
