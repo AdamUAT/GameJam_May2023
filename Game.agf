@@ -1535,6 +1535,86 @@
               </GUIButton>
             </Controls>
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <BackgroundColor>50712</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <BorderColor>2</BorderColor>
+              <Clickable>True</Clickable>
+              <Height>300</Height>
+              <ID>6</ID>
+              <Left>0</Left>
+              <Name>gCredits</Name>
+              <OnClick />
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <Top>0</Top>
+              <Transparency>0</Transparency>
+              <Visible>False</Visible>
+              <Width>500</Width>
+              <ZOrder>0</ZOrder>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>250</Height>
+                <ID>0</ID>
+                <Left>95</Left>
+                <Locked>True</Locked>
+                <Name>Position</Name>
+                <Text xml:space="preserve">Lead Designer:[Puzzle Designer:[Writer:[Misc. Designer:[[Game Programmers:[[Engine Programmer:[UI Programmer[[Lead Artist:[Artist:[[Lead Sound Designer:[[Vocal Talent[Terry the Gorilla:[Beep Boop Machine:[Various others:</Text>
+                <TextAlignment>Right</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>25</Top>
+                <Visible>True</Visible>
+                <Width>150</Width>
+                <ZOrder>0</ZOrder>
+              </GUILabel>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>250</Height>
+                <ID>1</ID>
+                <Left>255</Left>
+                <Locked>True</Locked>
+                <Name>Name</Name>
+                <Text xml:space="preserve">Kyler Burson[Nathan Silva[Phoenix Ross[Everyone[[Kyler Burson[Phoenix Ross[Adam White[Adam White[[Dylan Hamilton[Nathan Silva[[Kyler Burson[[[Nathan Silva[Adam White[Kyler Burson</Text>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>25</Top>
+                <Visible>True</Visible>
+                <Width>150</Width>
+                <ZOrder>1</ZOrder>
+              </GUILabel>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>25</Height>
+                <ID>2</ID>
+                <Image>0</Image>
+                <Left>200</Left>
+                <Locked>True</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Exit</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>Exit_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>Close</Text>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>261</Top>
+                <Visible>True</Visible>
+                <Width>100</Width>
+                <ZOrder>2</ZOrder>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -1833,7 +1913,7 @@
             <SpeechView>0</SpeechView>
             <StartX>160</StartX>
             <StartY>1</StartY>
-            <StartingRoom>1</StartingRoom>
+            <StartingRoom>4</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
