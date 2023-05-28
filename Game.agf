@@ -1669,13 +1669,13 @@
             <HotspotX>10</HotspotX>
             <HotspotY>5</HotspotY>
             <ID>3</ID>
-            <Image>54</Image>
-            <Name>iTransform</Name>
+            <Image>0</Image>
+            <Name>iAmulet</Name>
             <PlayerStartsWithItem>True</PlayerStartsWithItem>
             <Properties />
             <Interactions>
               <Event Index="0" />
-              <Event Index="1" />
+              <Event Index="1">iAmulet_Interact</Event>
               <Event Index="2" />
               <Event Index="3" />
               <Event Index="4" />
@@ -2298,8 +2298,8 @@ return
 goto-dialog dJokeTerry
 
 @4
-HiddenPlayer: You're no fun
-Terry: "Hurumph"
+HiddenPlayer: Ok, bye.
+Terry: "..."
 stop
 ]]></Script>
                 <DialogOptions>
@@ -2325,7 +2325,7 @@ stop
                     <ID>4</ID>
                     <Say>False</Say>
                     <Show>True</Show>
-                    <Text>Leave</Text>
+                    <Text>Exit</Text>
                   </DialogOption>
                 </DialogOptions>
               </Dialog>
@@ -2752,6 +2752,59 @@ stop
                     <Say>False</Say>
                     <Show>True</Show>
                     <Text>Exit</Text>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+            </Dialogs>
+          </DialogFolder>
+          <DialogFolder Name="AmuletDialog">
+            <SubFolders />
+            <Dialogs>
+              <Dialog>
+                <ID>13</ID>
+                <Name>dDialogAmulet</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+run-script 15
+return
+@1
+HiddenPlayer: (You're a human now! Don't worry you're not naked.)
+run-script 8
+run-script 12
+run-script 13
+stop
+@2
+HiddenPlayer: (You're a cat now! You're absolutely adorable!)
+run-script 9
+run-script 11
+run-script 13
+stop
+@3
+HiddenPlayer: (You're a lizard, Harry! Super scaly but also REALLY small!)
+run-script 10
+run-script 11
+run-script 11
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Say>True</Say>
+                    <Show>True</Show>
+                    <Text>Human</Text>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Say>True</Say>
+                    <Show>True</Show>
+                    <Text>Cat</Text>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Say>True</Say>
+                    <Show>False</Show>
+                    <Text>Lizard</Text>
                   </DialogOption>
                 </DialogOptions>
               </Dialog>
