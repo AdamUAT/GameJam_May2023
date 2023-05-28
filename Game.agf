@@ -1833,7 +1833,7 @@
             <SpeechView>0</SpeechView>
             <StartX>160</StartX>
             <StartY>1</StartY>
-            <StartingRoom>2</StartingRoom>
+            <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -1875,7 +1875,7 @@
             <SpeechView>0</SpeechView>
             <StartX>427</StartX>
             <StartY>110</StartY>
-            <StartingRoom>1</StartingRoom>
+            <StartingRoom>-1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -1957,8 +1957,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>33</StartX>
-            <StartY>192</StartY>
+            <StartX>52</StartX>
+            <StartY>259</StartY>
             <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -1999,8 +1999,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>247</StartX>
-            <StartY>142</StartY>
+            <StartX>161</StartX>
+            <StartY>205</StartY>
             <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -2041,8 +2041,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>98</StartX>
-            <StartY>129</StartY>
+            <StartX>459</StartX>
+            <StartY>269</StartY>
             <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -2070,7 +2070,7 @@
             <ID>6</ID>
             <IdleAnimationDelay>4</IdleAnimationDelay>
             <IdleDelay>20</IdleDelay>
-            <IdleView>0</IdleView>
+            <IdleView>5</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -2083,8 +2083,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>273</StartX>
-            <StartY>217</StartY>
+            <StartX>342</StartX>
+            <StartY>203</StartY>
             <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -5916,7 +5916,7 @@ stop
                 <Frames>
                   <ViewFrame>
                     <Delay>0</Delay>
-                    <Flipped>False</Flipped>
+                    <Flipped>True</Flipped>
                     <ID>0</ID>
                     <Image>21</Image>
                     <Sound>0</Sound>
