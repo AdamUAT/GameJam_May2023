@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>19</AudioIndexer>
+      <AudioIndexer>20</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
@@ -5096,19 +5096,6 @@ stop
                     <DefaultVolume>-1</DefaultVolume>
                     <FileType>WAV</FileType>
                     <ID>7</ID>
-                    <Index>8</Index>
-                    <ScriptName>aGorillaSound</ScriptName>
-                    <SourceFileName>Source/Sound/FXs/GorillaSound.wav</SourceFileName>
-                    <Type>3</Type>
-                    <FileLastModifiedDate>2023-05-28 00:32:52Z</FileLastModifiedDate>
-                  </AudioClip>
-                  <AudioClip>
-                    <BundlingType>InGameEXE</BundlingType>
-                    <DefaultPriority>Inherit</DefaultPriority>
-                    <DefaultRepeat>Inherit</DefaultRepeat>
-                    <DefaultVolume>-1</DefaultVolume>
-                    <FileType>WAV</FileType>
-                    <ID>8</ID>
                     <Index>9</Index>
                     <ScriptName>aLizardCrawlSound</ScriptName>
                     <SourceFileName>Source/Sound/FXs/LizardCrawlSound.wav</SourceFileName>
@@ -5121,7 +5108,7 @@ stop
                     <DefaultRepeat>Inherit</DefaultRepeat>
                     <DefaultVolume>-1</DefaultVolume>
                     <FileType>WAV</FileType>
-                    <ID>9</ID>
+                    <ID>8</ID>
                     <Index>10</Index>
                     <ScriptName>aLizardSounds</ScriptName>
                     <SourceFileName>Source/Sound/FXs/LizardSounds.wav</SourceFileName>
@@ -5134,7 +5121,7 @@ stop
                     <DefaultRepeat>Inherit</DefaultRepeat>
                     <DefaultVolume>-1</DefaultVolume>
                     <FileType>WAV</FileType>
-                    <ID>10</ID>
+                    <ID>9</ID>
                     <Index>11</Index>
                     <ScriptName>aOcelotSounds</ScriptName>
                     <SourceFileName>Source/Sound/FXs/OcelotSounds.wav</SourceFileName>
@@ -5147,12 +5134,25 @@ stop
                     <DefaultRepeat>Inherit</DefaultRepeat>
                     <DefaultVolume>-1</DefaultVolume>
                     <FileType>WAV</FileType>
-                    <ID>11</ID>
+                    <ID>10</ID>
                     <Index>12</Index>
                     <ScriptName>aZebraSounds</ScriptName>
                     <SourceFileName>Source/Sound/FXs/ZebraSounds.wav</SourceFileName>
                     <Type>3</Type>
                     <FileLastModifiedDate>2023-05-28 00:32:52Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InGameEXE</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>WAV</FileType>
+                    <ID>18</ID>
+                    <Index>20</Index>
+                    <ScriptName>aGorillaSound</ScriptName>
+                    <SourceFileName>Source/Sound/FXs/GorillaSound.wav</SourceFileName>
+                    <Type>3</Type>
+                    <FileLastModifiedDate>2023-05-28 00:53:58Z</FileLastModifiedDate>
                   </AudioClip>
                 </AudioClips>
                 <AudioClipFolder>
@@ -5172,7 +5172,7 @@ stop
                     <DefaultRepeat>Inherit</DefaultRepeat>
                     <DefaultVolume>-1</DefaultVolume>
                     <FileType>WAV</FileType>
-                    <ID>12</ID>
+                    <ID>11</ID>
                     <Index>13</Index>
                     <ScriptName>aBatBreakJar</ScriptName>
                     <SourceFileName>Source/Sound/FXs/BatBreakJar.wav</SourceFileName>
@@ -5185,7 +5185,7 @@ stop
                     <DefaultRepeat>Inherit</DefaultRepeat>
                     <DefaultVolume>-1</DefaultVolume>
                     <FileType>WAV</FileType>
-                    <ID>13</ID>
+                    <ID>12</ID>
                     <Index>14</Index>
                     <ScriptName>aCatticusUnfreezingSound</ScriptName>
                     <SourceFileName>Source/Sound/FXs/CatticusUnfreezingSound.wav</SourceFileName>
@@ -5198,7 +5198,7 @@ stop
                     <DefaultRepeat>Inherit</DefaultRepeat>
                     <DefaultVolume>-1</DefaultVolume>
                     <FileType>WAV</FileType>
-                    <ID>14</ID>
+                    <ID>13</ID>
                     <Index>15</Index>
                     <ScriptName>aChestOpeningSound</ScriptName>
                     <SourceFileName>Source/Sound/FXs/ChestOpeningSound.wav</SourceFileName>
@@ -5211,7 +5211,7 @@ stop
                     <DefaultRepeat>Inherit</DefaultRepeat>
                     <DefaultVolume>-1</DefaultVolume>
                     <FileType>WAV</FileType>
-                    <ID>15</ID>
+                    <ID>14</ID>
                     <Index>16</Index>
                     <ScriptName>aHotDogSacrificeSound</ScriptName>
                     <SourceFileName>Source/Sound/FXs/HotDogSacrificeSound.wav</SourceFileName>
@@ -5224,7 +5224,7 @@ stop
                     <DefaultRepeat>Inherit</DefaultRepeat>
                     <DefaultVolume>-1</DefaultVolume>
                     <FileType>WAV</FileType>
-                    <ID>16</ID>
+                    <ID>15</ID>
                     <Index>17</Index>
                     <ScriptName>aHotDogSound</ScriptName>
                     <SourceFileName>Source/Sound/FXs/HotDogSound.wav</SourceFileName>
@@ -5237,7 +5237,7 @@ stop
                     <DefaultRepeat>Inherit</DefaultRepeat>
                     <DefaultVolume>-1</DefaultVolume>
                     <FileType>WAV</FileType>
-                    <ID>17</ID>
+                    <ID>16</ID>
                     <Index>18</Index>
                     <ScriptName>aPickUpSound</ScriptName>
                     <SourceFileName>Source/Sound/FXs/PickUpSound.wav</SourceFileName>
@@ -5250,7 +5250,7 @@ stop
                     <DefaultRepeat>Inherit</DefaultRepeat>
                     <DefaultVolume>-1</DefaultVolume>
                     <FileType>WAV</FileType>
-                    <ID>18</ID>
+                    <ID>17</ID>
                     <Index>19</Index>
                     <ScriptName>aWalkingSound</ScriptName>
                     <SourceFileName>Source/Sound/FXs/WalkingSound.wav</SourceFileName>
